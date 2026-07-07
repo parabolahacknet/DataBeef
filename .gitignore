@@ -1,0 +1,9 @@
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+bin/
+obj/
+
+# Archivos de sistema
+Thumbs.db
