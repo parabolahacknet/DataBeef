@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InicioSesion));
             tableLayoutPanel1 = new TableLayoutPanel();
-            pictureBox1 = new PictureBox();
             tableLayoutPanel2 = new TableLayoutPanel();
             label1 = new Label();
             label2 = new Label();
@@ -41,9 +40,14 @@
             cuiTextBox1 = new CuoreUI.Controls.cuiTextBox();
             cuiButton1 = new CuoreUI.Controls.cuiButton();
             cuiTextBox2 = new CuoreUI.Controls.cuiTextBox();
+            tableLayoutPanel3 = new TableLayoutPanel();
+            pictureBox1 = new PictureBox();
+            label3 = new Label();
+            label8 = new Label();
             tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tableLayoutPanel2.SuspendLayout();
+            tableLayoutPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -52,8 +56,8 @@
             tableLayoutPanel1.ColumnCount = 2;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 60F));
-            tableLayoutPanel1.Controls.Add(pictureBox1, 0, 0);
             tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 1, 0);
+            tableLayoutPanel1.Controls.Add(tableLayoutPanel3, 0, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -61,18 +65,6 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel1.Size = new Size(944, 501);
             tableLayoutPanel1.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.White;
-            pictureBox1.Dock = DockStyle.Fill;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(3, 3);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(371, 495);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
             // 
             // tableLayoutPanel2
             // 
@@ -288,6 +280,60 @@
             cuiTextBox2.TextOffset = new Size(0, 0);
             cuiTextBox2.UnderlinedStyle = true;
             // 
+            // tableLayoutPanel3
+            // 
+            tableLayoutPanel3.ColumnCount = 1;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel3.Controls.Add(pictureBox1, 0, 0);
+            tableLayoutPanel3.Controls.Add(label3, 0, 1);
+            tableLayoutPanel3.Controls.Add(label8, 0, 2);
+            tableLayoutPanel3.Dock = DockStyle.Fill;
+            tableLayoutPanel3.Location = new Point(3, 3);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            tableLayoutPanel3.RowCount = 3;
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 75F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 5.65656567F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 19.39394F));
+            tableLayoutPanel3.Size = new Size(371, 495);
+            tableLayoutPanel3.TabIndex = 2;
+            tableLayoutPanel3.Paint += tableLayoutPanel3_Paint;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Dock = DockStyle.Fill;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(3, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(365, 365);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Dock = DockStyle.Fill;
+            label3.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(3, 371);
+            label3.Name = "label3";
+            label3.Size = new Size(365, 27);
+            label3.TabIndex = 1;
+            label3.Text = "SISTEMA DE GESTIÓN";
+            label3.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Dock = DockStyle.Fill;
+            label8.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.ForeColor = Color.FromArgb(192, 0, 0);
+            label8.Location = new Point(3, 398);
+            label8.Name = "label8";
+            label8.Size = new Size(365, 97);
+            label8.TabIndex = 2;
+            label8.Text = "DATABEEF";
+            label8.TextAlign = ContentAlignment.TopCenter;
+            // 
             // InicioSesion
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -299,16 +345,17 @@
             Text = "InicioSesion";
             WindowState = FormWindowState.Maximized;
             tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel2.PerformLayout();
+            tableLayoutPanel3.ResumeLayout(false);
+            tableLayoutPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private TableLayoutPanel tableLayoutPanel1;
-        private PictureBox pictureBox1;
         private TableLayoutPanel tableLayoutPanel2;
         private Label label1;
         private Label label2;
@@ -320,5 +367,9 @@
         private CuoreUI.Controls.cuiTextBox cuiTextBox1;
         private CuoreUI.Controls.cuiButton cuiButton1;
         private CuoreUI.Controls.cuiTextBox cuiTextBox2;
+        private TableLayoutPanel tableLayoutPanel3;
+        private PictureBox pictureBox1;
+        private Label label3;
+        private Label label8;
     }
 }
