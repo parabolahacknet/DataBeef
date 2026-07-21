@@ -16,3 +16,5 @@ C:\Users\antho\source\repos\DataBeef\DataBeef\obj\Debug\DataBeef.csproj.CoreComp
 C:\Users\antho\source\repos\DataBeef\DataBeef\obj\Debug\DataBeef.csproj.Up2Date
 C:\Users\antho\source\repos\DataBeef\DataBeef\obj\Debug\DataBeef.exe
 C:\Users\antho\source\repos\DataBeef\DataBeef\obj\Debug\DataBeef.pdb
+C:\Users\antho\source\repos\DataBeef\DataBeef\obj\Debug\DataBeef.fmReportes.resources
+C:\Users\antho\source\repos\DataBeef\DataBeef\bin\Debug\Guna.UI2.dll
