@@ -18,34 +18,34 @@
 mono_crash.*
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
+**/[Dd]ebug/
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Rr]eleases/
 
-[Dd]ebug/x64/
-[Dd]ebugPublic/x64/
-[Rr]elease/x64/
-[Rr]eleases/x64/
-bin/x64/
-obj/x64/
+**/[Dd]ebug/x64/
+**/[Dd]ebugPublic/x64/
+**/[Rr]elease/x64/
+**/[Rr]eleases/x64/
+**/bin/x64/
+**/obj/x64/
 
-[Dd]ebug/x86/
-[Dd]ebugPublic/x86/
-[Rr]elease/x86/
-[Rr]eleases/x86/
-bin/x86/
-obj/x86/
+**/[Dd]ebug/x86/
+**/[Dd]ebugPublic/x86/
+**/[Rr]elease/x86/
+**/[Rr]eleases/x86/
+**/bin/x86/
+**/obj/x86/
 
-[Ww][Ii][Nn]32/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-[Aa][Rr][Mm]64[Ee][Cc]/
-bld/
-[Oo]bj/
-[Oo]ut/
-[Ll]og/
-[Ll]ogs/
+**/[Ww][Ii][Nn]32/
+**/[Aa][Rr][Mm]/
+**/[Aa][Rr][Mm]64/
+**/[Aa][Rr][Mm]64[Ee][Cc]/
+**/bld/
+**/[Oo]bj/
+**/[Oo]ut/
+**/[Ll]og/
+**/[Ll]ogs/
 
 # Build results on 'Bin' directories
 **/[Bb]in/*
@@ -54,16 +54,16 @@ bld/
 #!**/[Bb]in/*.refresh
 
 # Visual Studio 2015/2017 cache/options directory
-.vs/
+**/.vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
 # Visual Studio 2017 auto generated files
-Generated\ Files/
+**/Generated\ Files/
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+**/[Tt]est[Rr]esult*/
+**/[Bb]uild[Ll]og.*
 *.trx
 
 # NUnit
@@ -75,8 +75,8 @@ nunit-*.xml
 *.received.*
 
 # Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
+**/[Dd]ebugPS/
+**/[Rr]eleasePS/
 dlldata.c
 
 # Benchmark Results
@@ -131,7 +131,7 @@ StyleCopReport.xml
 _Chutzpah*
 
 # Visual C++ cache files
-ipch/
+**/ipch/
 *.aps
 *.ncb
 *.opendb
@@ -157,12 +157,12 @@ $tf/
 *.gpState
 
 # ReSharper is a .NET coding add-in
-_ReSharper*/
+**/_ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
 # TeamCity is a build add-in
-_TeamCity*
+**/_TeamCity*
 
 # DotCover is a Code Coverage Tool
 *.dotCover
@@ -194,20 +194,20 @@ AutoTest.Net/
 .sass-cache/
 
 # Installshield output folder
-[Ee]xpress/
+**/[Ee]xpress/
 
 # DocProject is a documentation generator add-in
-DocProject/buildhelp/
-DocProject/Help/*.HxT
-DocProject/Help/*.HxC
-DocProject/Help/*.hhc
-DocProject/Help/*.hhk
-DocProject/Help/*.hhp
-DocProject/Help/Html2
-DocProject/Help/html
+**/DocProject/buildhelp/
+**/DocProject/Help/*.HxT
+**/DocProject/Help/*.HxC
+**/DocProject/Help/*.hhc
+**/DocProject/Help/*.hhk
+**/DocProject/Help/*.hhp
+**/DocProject/Help/Html2
+**/DocProject/Help/html
 
 # Click-Once directory
-publish/
+**/publish/
 
 # Publish Web Output
 *.[Pp]ublish.xml
@@ -220,7 +220,7 @@ publish/
 # Microsoft Azure Web App publish settings. Comment the next line if you want to
 # checkin your Azure Web App publish settings, but sensitive information contained
 # in these scripts will be unencrypted
-PublishScripts/
+**/PublishScripts/
 
 # NuGet Packages
 *.nupkg
@@ -237,16 +237,16 @@ PublishScripts/
 *.nuget.targets
 
 # Microsoft Azure Build Output
-csx/
+**/csx/
 *.build.csdef
 
 # Microsoft Azure Emulator
-ecf/
-rcf/
+**/ecf/
+**/rcf/
 
 # Windows Store app package directories and files
-AppPackages/
-BundleArtifacts/
+**/AppPackages/
+**/BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
 *.appx
@@ -260,7 +260,7 @@ _pkginfo.txt
 !?*.[Cc]ache/
 
 # Others
-ClientBin/
+**/ClientBin/
 ~$*
 *~
 *.dbmdl
@@ -279,16 +279,16 @@ orleans.codegen.cs
 #bower_components/
 
 # RIA/Silverlight projects
-Generated_Code/
+**/Generated_Code/
 
 # Backup & report files from converting an old project file
 # to a newer Visual Studio version. Backup files are not needed,
 # because we have git ;-)
-_UpgradeReport_Files/
-Backup*/
+**/_UpgradeReport_Files/
+**/Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
-ServiceFabricBackup/
+**/ServiceFabricBackup/
 *.rptproj.bak
 
 # SQL Server files
@@ -306,14 +306,14 @@ ServiceFabricBackup/
 *- [Bb]ackup ([0-9][0-9]).rdl
 
 # Microsoft Fakes
-FakesAssemblies/
+**/FakesAssemblies/
 
 # GhostDoc plugin setting file
 *.GhostDoc.xml
 
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
-node_modules/
+**/node_modules/
 
 # Visual Studio 6 build log
 *.plg
@@ -338,11 +338,11 @@ node_modules/
 **/*.DesktopClient/ModelManifest.xml
 **/*.Server/GeneratedArtifacts
 **/*.Server/ModelManifest.xml
-_Pvt_Extensions
+**/_Pvt_Extensions
 
 # Paket dependency manager
 **/.paket/paket.exe
-paket-files/
+**/paket-files/
 
 # FAKE - F# Make
 **/.fake/
@@ -371,17 +371,17 @@ paket-files/
 *.xsd.cs
 
 # OpenCover UI analysis results
-OpenCover/
+**/OpenCover/
 
 # Azure Stream Analytics local run output
-ASALocalRun/
+**/ASALocalRun/
 
 # MSBuild Binary and Structured Log
 *.binlog
 MSBuild_Logs/
 
 # AWS SAM Build and Temporary Artifacts folder
-.aws-sam
+**/.aws-sam
 
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
@@ -393,13 +393,13 @@ MSBuild_Logs/
 **/.localhistory/
 
 # Visual Studio History (VSHistory) files
-.vshistory/
+**/.vshistory/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
-MigrationBackup/
+**/MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 **/.ionide/
@@ -408,15 +408,15 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+**.vscode/*
+!**.vscode/settings.json
+!**.vscode/tasks.json
+!**.vscode/launch.json
+!**.vscode/extensions.json
+!**.vscode/*.code-snippets
 
 # Local History for Visual Studio Code
-.history/
+**/.history/
 
 # Built Visual Studio Code Extensions
 *.vsix
