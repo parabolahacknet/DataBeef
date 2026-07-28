@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using MenuPrincipal;
 
 namespace DataBeef
 {
@@ -16,7 +14,18 @@ namespace DataBeef
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fmMenu());
+
+            // Mostrar el formulario de inicio de sesión como diálogo. Si el inicio de sesión fue
+            // exitoso (DialogResult.OK), iniciar el bucle principal con frmMenu. Esto asegura
+            // que al cerrar frmMenu el proceso termine completamente.
+            using (var login = new InicioSesion())
+            {
+                var result = login.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    Application.Run(new frmMenu());
+                }
+            }
         }
     }
 }

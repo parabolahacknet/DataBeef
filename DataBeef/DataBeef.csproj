@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{504BC59F-ED94-43B3-8265-AA891CDB0995}</ProjectGuid>
+    <ProjectGuid>{93EE976F-DD65-4639-BBEF-529F048ADFE3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>DataBeef</RootNamespace>
     <AssemblyName>DataBeef</AssemblyName>
@@ -40,14 +40,13 @@
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.8\lib\net48\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="HartUI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\HartUI.Winforms.2026.7.17\lib\net472\HartUI.dll</HintPath>
+      <HintPath>..\packages\HartUI.Winforms.2026.7.22\lib\net472\HartUI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
-    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -60,61 +59,124 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="data\ReporteDatosSimulados.cs" />
-    <Compile Include="fmDesposte.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fmDesposte.Designer.cs">
-      <DependentUpon>fmDesposte.cs</DependentUpon>
-    </Compile>
-    <Compile Include="fmEmpaque.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fmEmpaque.Designer.cs">
-      <DependentUpon>fmEmpaque.cs</DependentUpon>
-    </Compile>
-    <Compile Include="fmFaenamiento.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fmFaenamiento.Designer.cs">
-      <DependentUpon>fmFaenamiento.cs</DependentUpon>
-    </Compile>
-    <Compile Include="fmMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fmMenu.Designer.cs">
-      <DependentUpon>fmMenu.cs</DependentUpon>
-    </Compile>
     <Compile Include="fmTrazabilidad.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fmTrazabilidad.Designer.cs">
       <DependentUpon>fmTrazabilidad.cs</DependentUpon>
     </Compile>
-    <Compile Include="fmReportes.cs">
+    <Compile Include="FormReportes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fmReportes.Designer.cs">
-      <DependentUpon>fmReportes.cs</DependentUpon>
+    <Compile Include="FormReportes.Designer.cs">
+      <DependentUpon>FormReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClientes.Designer.cs">
+      <DependentUpon>frmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDesposte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDesposte.Designer.cs">
+      <DependentUpon>frmDesposte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmpaque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmpaque.Designer.cs">
+      <DependentUpon>frmEmpaque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFacturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFacturacion.Designer.cs">
+      <DependentUpon>FrmFacturacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFaenamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFaenamiento.Designer.cs">
+      <DependentUpon>frmFaenamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProveedores.Designer.cs">
+      <DependentUpon>frmProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRecepcionCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRecepcionCompras.Designer.cs">
+      <DependentUpon>FrmRecepcionCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistro.Designer.cs">
+      <DependentUpon>frmRegistro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistroVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistroVentas.Designer.cs">
+      <DependentUpon>frmRegistroVentas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="fmDesposte.resx">
-      <DependentUpon>fmDesposte.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fmEmpaque.resx">
-      <DependentUpon>fmEmpaque.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fmFaenamiento.resx">
-      <DependentUpon>fmFaenamiento.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fmMenu.resx">
-      <DependentUpon>fmMenu.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="fmTrazabilidad.resx">
       <DependentUpon>fmTrazabilidad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmReportes.resx">
-      <DependentUpon>fmReportes.cs</DependentUpon>
+    <EmbeddedResource Include="FormReportes.resx">
+      <DependentUpon>FormReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClientes.resx">
+      <DependentUpon>frmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDesposte.resx">
+      <DependentUpon>frmDesposte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmpaque.resx">
+      <DependentUpon>frmEmpaque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFacturacion.resx">
+      <DependentUpon>FrmFacturacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFaenamiento.resx">
+      <DependentUpon>frmFaenamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProveedores.resx">
+      <DependentUpon>frmProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRecepcionCompras.resx">
+      <DependentUpon>FrmRecepcionCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistro.resx">
+      <DependentUpon>frmRegistro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistroVentas.resx">
+      <DependentUpon>frmRegistroVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
