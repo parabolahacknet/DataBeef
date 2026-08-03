@@ -84,7 +84,6 @@ namespace MenuPrincipal
 
         private void btnTrazabilidad_Click(object sender, EventArgs e)
         {
-            // Abrir fmTrazabilidad dentro del panel de contenido
             AbrirFormulario(new fmTrazabilidad());
 
             if (!pnlOpTrazabilidad.Visible)
@@ -156,7 +155,7 @@ namespace MenuPrincipal
 
         private void btnReportes_Click(object sender, EventArgs e)
         {
-            AbrirFormulario(new FormReportes());
+            AbrirFormulario(new fmReportes());
 
             if (!pnlOpReportes.Visible)
             { 

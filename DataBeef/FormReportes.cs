@@ -8,9 +8,9 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-// Se eliminaron las dependencias de System.Windows.Forms.DataVisualization; los gráficos en el diseñador se sustituyeron por paneles
+using System.Windows.Forms.DataVisualization.Charting;
 
-namespace DataBeef
+namespace Reportes_y_estadisticas_DATABEEF
 {
     public partial class FormReportes : Form
     {
@@ -98,8 +98,13 @@ namespace DataBeef
 
         private void CargarGraficos()
         {
-            // Los paneles de gráfico actúan como marcadores de posición en esta compilación.
-            // Aquí se podría dibujar gráficos personalizados si se requiere.
+            chartVentas.Series[0].Points.Clear();
+            foreach (KeyValuePair<string, decimal> item in reporteActual.VentasMensuales)
+                chartVentas.Series[0].Points.AddXY(item.Key, item.Value);
+
+            chartInventario.Series[0].Points.Clear();
+            foreach (KeyValuePair<string, decimal> item in reporteActual.DistribucionInventario)
+                chartInventario.Series[0].Points.AddXY(item.Key, item.Value);
         }
 
         private void CargarDetalleReporte()
@@ -155,17 +160,31 @@ namespace DataBeef
             lblComprasPeriodo.Text = lblVentasPeriodo.Text = lblGananciaPeriodo.Text = lblInventarioPeriodo.Text = "Sin periodo seleccionado";
             btnExportarPdf.Enabled = false;
             btnExportarExcel.Enabled = false;
-            // No hay objetos Chart en tiempo de compilación; omitir limpieza de series.
+            if (chartVentas.Series.Count > 0) chartVentas.Series[0].Points.Clear();
+            if (chartInventario.Series.Count > 0) chartInventario.Series[0].Points.Clear();
         }
 
         private void ConfigurarChartVentas()
         {
-            // Placeholder: configuración de gráficos omitida (dependencia de System.Windows.Forms.DataVisualization eliminada)
+            chartVentas.ChartAreas.Clear(); chartVentas.Series.Clear(); chartVentas.Legends.Clear();
+            var area = new ChartArea("Ventas") { BackColor = Color.White };
+            area.AxisX.MajorGrid.Enabled = false; area.AxisY.MajorGrid.LineColor = Color.FromArgb(235, 235, 235);
+            area.AxisX.LabelStyle.ForeColor = Color.FromArgb(100, 100, 100); area.AxisY.LabelStyle.ForeColor = Color.FromArgb(100, 100, 100);
+            chartVentas.ChartAreas.Add(area);
+            var serie = new Series("Ventas") { ChartType = SeriesChartType.Column, Color = Color.FromArgb(225, 6, 0), IsValueShownAsLabel = true, Font = new Font("Segoe UI", 8F) };
+            chartVentas.Series.Add(serie);
         }
 
         private void ConfigurarChartInventario()
         {
-            // Placeholder: configuración de gráficos omitida (dependencia de System.Windows.Forms.DataVisualization eliminada)
+            chartInventario.ChartAreas.Clear(); chartInventario.Series.Clear(); chartInventario.Legends.Clear();
+            chartInventario.ChartAreas.Add(new ChartArea("Inventario") { BackColor = Color.White });
+            chartInventario.Legends.Add(new Legend("Leyenda") { Docking = Docking.Right, Font = new Font("Segoe UI", 8F) });
+            var serie = new Series("Inventario") { ChartType = SeriesChartType.Doughnut, IsValueShownAsLabel = true, Label = "#PERCENT{P0}", LegendText = "#VALX" };
+            serie.Palette = ChartColorPalette.None;
+            serie.Points.DataBindXY(new string[0], new decimal[0]);
+            chartInventario.Series.Add(serie);
+            chartInventario.PaletteCustomColors = new[] { Color.FromArgb(225, 6, 0), Color.FromArgb(55, 55, 55), Color.FromArgb(145, 145, 145), Color.FromArgb(210, 210, 210) };
         }
 
         private void MostrarMensaje(string mensaje, string titulo, Guna.UI2.WinForms.MessageDialogIcon icono)

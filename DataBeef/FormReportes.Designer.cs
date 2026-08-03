@@ -1,4 +1,4 @@
-namespace DataBeef
+namespace Reportes_y_estadisticas_DATABEEF
 {
     partial class FormReportes
     {
@@ -41,8 +41,8 @@ namespace DataBeef
         private Guna.UI2.WinForms.Guna2Panel pnlGraficoInventario;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblGraficoVentas;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblGraficoInventario;
-    private System.Windows.Forms.Panel chartVentas;
-    private System.Windows.Forms.Panel chartInventario;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartVentas;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartInventario;
         private Guna.UI2.WinForms.Guna2Panel pnlDetalle;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblDetalleTitulo;
         private Guna.UI2.WinForms.Guna2DataGridView dgvDetalleReporte;
@@ -58,10 +58,14 @@ namespace DataBeef
 
         private void InitializeComponent()
         {
-            // chart placeholders: removed dependency on System.Windows.Forms.DataVisualization
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlContenido = new System.Windows.Forms.Panel();
             this.lineaRoja = new System.Windows.Forms.Panel();
             this.lblTitulo = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -98,10 +102,10 @@ namespace DataBeef
             this.lblInventarioPeriodo = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pnlGraficoVentas = new Guna.UI2.WinForms.Guna2Panel();
             this.lblGraficoVentas = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.chartVentas = new System.Windows.Forms.Panel();
+            this.chartVentas = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.pnlGraficoInventario = new Guna.UI2.WinForms.Guna2Panel();
             this.lblGraficoInventario = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.chartInventario = new System.Windows.Forms.Panel();
+            this.chartInventario = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.pnlDetalle = new Guna.UI2.WinForms.Guna2Panel();
             this.lblDetalleTitulo = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.dgvDetalleReporte = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -115,7 +119,9 @@ namespace DataBeef
             this.pnlGanancia.SuspendLayout();
             this.pnlInventario.SuspendLayout();
             this.pnlGraficoVentas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartVentas)).BeginInit();
             this.pnlGraficoInventario.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartInventario)).BeginInit();
             this.pnlDetalle.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleReporte)).BeginInit();
             this.SuspendLayout();
@@ -157,7 +163,7 @@ namespace DataBeef
             this.lblTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.lblTitulo.Location = new System.Drawing.Point(43, 16);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(459, 49);
+            this.lblTitulo.Size = new System.Drawing.Size(363, 40);
             this.lblTitulo.TabIndex = 1;
             this.lblTitulo.Text = "REPORTES Y ESTADÍSTICAS";
             // 
@@ -168,7 +174,7 @@ namespace DataBeef
             this.lblSubtitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblSubtitulo.Location = new System.Drawing.Point(45, 54);
             this.lblSubtitulo.Name = "lblSubtitulo";
-            this.lblSubtitulo.Size = new System.Drawing.Size(230, 25);
+            this.lblSubtitulo.Size = new System.Drawing.Size(180, 19);
             this.lblSubtitulo.TabIndex = 2;
             this.lblSubtitulo.Text = "Módulo de análisis e informes";
             // 
@@ -199,7 +205,7 @@ namespace DataBeef
             this.lblFiltroDesde.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblFiltroDesde.Location = new System.Drawing.Point(16, 9);
             this.lblFiltroDesde.Name = "lblFiltroDesde";
-            this.lblFiltroDesde.Size = new System.Drawing.Size(78, 21);
+            this.lblFiltroDesde.Size = new System.Drawing.Size(67, 15);
             this.lblFiltroDesde.TabIndex = 0;
             this.lblFiltroDesde.Text = "Fecha desde";
             // 
@@ -210,7 +216,7 @@ namespace DataBeef
             this.lblFiltroHasta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblFiltroHasta.Location = new System.Drawing.Point(190, 9);
             this.lblFiltroHasta.Name = "lblFiltroHasta";
-            this.lblFiltroHasta.Size = new System.Drawing.Size(75, 21);
+            this.lblFiltroHasta.Size = new System.Drawing.Size(64, 15);
             this.lblFiltroHasta.TabIndex = 1;
             this.lblFiltroHasta.Text = "Fecha hasta";
             // 
@@ -221,7 +227,7 @@ namespace DataBeef
             this.lblFiltroTipo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblFiltroTipo.Location = new System.Drawing.Point(364, 9);
             this.lblFiltroTipo.Name = "lblFiltroTipo";
-            this.lblFiltroTipo.Size = new System.Drawing.Size(97, 21);
+            this.lblFiltroTipo.Size = new System.Drawing.Size(82, 15);
             this.lblFiltroTipo.TabIndex = 2;
             this.lblFiltroTipo.Text = "Tipo de reporte";
             // 
@@ -269,7 +275,7 @@ namespace DataBeef
             this.cmbTipoReporte.ItemHeight = 30;
             this.cmbTipoReporte.Location = new System.Drawing.Point(364, 31);
             this.cmbTipoReporte.Name = "cmbTipoReporte";
-            this.cmbTipoReporte.Size = new System.Drawing.Size(174, 36);
+            this.cmbTipoReporte.Size = new System.Drawing.Size(225, 36);
             this.cmbTipoReporte.TabIndex = 5;
             // 
             // btnGenerarReporte
@@ -334,7 +340,7 @@ namespace DataBeef
             this.lblComprasIcono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(6)))), ((int)(((byte)(0)))));
             this.lblComprasIcono.Location = new System.Drawing.Point(16, 34);
             this.lblComprasIcono.Name = "lblComprasIcono";
-            this.lblComprasIcono.Size = new System.Drawing.Size(21, 43);
+            this.lblComprasIcono.Size = new System.Drawing.Size(18, 34);
             this.lblComprasIcono.TabIndex = 0;
             this.lblComprasIcono.Text = "●";
             // 
@@ -345,7 +351,7 @@ namespace DataBeef
             this.lblComprasNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblComprasNombre.Location = new System.Drawing.Point(60, 14);
             this.lblComprasNombre.Name = "lblComprasNombre";
-            this.lblComprasNombre.Size = new System.Drawing.Size(141, 21);
+            this.lblComprasNombre.Size = new System.Drawing.Size(111, 15);
             this.lblComprasNombre.TabIndex = 1;
             this.lblComprasNombre.Text = "TOTAL DE COMPRAS";
             // 
@@ -356,7 +362,7 @@ namespace DataBeef
             this.lblComprasValor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.lblComprasValor.Location = new System.Drawing.Point(60, 37);
             this.lblComprasValor.Name = "lblComprasValor";
-            this.lblComprasValor.Size = new System.Drawing.Size(79, 43);
+            this.lblComprasValor.Size = new System.Drawing.Size(66, 34);
             this.lblComprasValor.TabIndex = 2;
             this.lblComprasValor.Text = "$0,00";
             // 
@@ -367,7 +373,7 @@ namespace DataBeef
             this.lblComprasPeriodo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblComprasPeriodo.Location = new System.Drawing.Point(60, 80);
             this.lblComprasPeriodo.Name = "lblComprasPeriodo";
-            this.lblComprasPeriodo.Size = new System.Drawing.Size(151, 19);
+            this.lblComprasPeriodo.Size = new System.Drawing.Size(133, 15);
             this.lblComprasPeriodo.TabIndex = 3;
             this.lblComprasPeriodo.Text = "Sin periodo seleccionado";
             // 
@@ -391,7 +397,7 @@ namespace DataBeef
             this.lblVentasIcono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(6)))), ((int)(((byte)(0)))));
             this.lblVentasIcono.Location = new System.Drawing.Point(16, 34);
             this.lblVentasIcono.Name = "lblVentasIcono";
-            this.lblVentasIcono.Size = new System.Drawing.Size(29, 43);
+            this.lblVentasIcono.Size = new System.Drawing.Size(24, 34);
             this.lblVentasIcono.TabIndex = 0;
             this.lblVentasIcono.Text = "▲";
             // 
@@ -402,7 +408,7 @@ namespace DataBeef
             this.lblVentasNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblVentasNombre.Location = new System.Drawing.Point(60, 14);
             this.lblVentasNombre.Name = "lblVentasNombre";
-            this.lblVentasNombre.Size = new System.Drawing.Size(119, 21);
+            this.lblVentasNombre.Size = new System.Drawing.Size(94, 15);
             this.lblVentasNombre.TabIndex = 1;
             this.lblVentasNombre.Text = "VENTAS TOTALES";
             // 
@@ -413,7 +419,7 @@ namespace DataBeef
             this.lblVentasValor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.lblVentasValor.Location = new System.Drawing.Point(60, 37);
             this.lblVentasValor.Name = "lblVentasValor";
-            this.lblVentasValor.Size = new System.Drawing.Size(79, 43);
+            this.lblVentasValor.Size = new System.Drawing.Size(66, 34);
             this.lblVentasValor.TabIndex = 2;
             this.lblVentasValor.Text = "$0,00";
             // 
@@ -424,7 +430,7 @@ namespace DataBeef
             this.lblVentasPeriodo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblVentasPeriodo.Location = new System.Drawing.Point(60, 80);
             this.lblVentasPeriodo.Name = "lblVentasPeriodo";
-            this.lblVentasPeriodo.Size = new System.Drawing.Size(151, 19);
+            this.lblVentasPeriodo.Size = new System.Drawing.Size(133, 15);
             this.lblVentasPeriodo.TabIndex = 3;
             this.lblVentasPeriodo.Text = "Sin periodo seleccionado";
             // 
@@ -449,7 +455,7 @@ namespace DataBeef
             this.lblGananciaIcono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(6)))), ((int)(((byte)(0)))));
             this.lblGananciaIcono.Location = new System.Drawing.Point(16, 34);
             this.lblGananciaIcono.Name = "lblGananciaIcono";
-            this.lblGananciaIcono.Size = new System.Drawing.Size(20, 43);
+            this.lblGananciaIcono.Size = new System.Drawing.Size(17, 34);
             this.lblGananciaIcono.TabIndex = 0;
             this.lblGananciaIcono.Text = "$";
             // 
@@ -460,7 +466,7 @@ namespace DataBeef
             this.lblGananciaNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblGananciaNombre.Location = new System.Drawing.Point(60, 14);
             this.lblGananciaNombre.Name = "lblGananciaNombre";
-            this.lblGananciaNombre.Size = new System.Drawing.Size(152, 21);
+            this.lblGananciaNombre.Size = new System.Drawing.Size(122, 15);
             this.lblGananciaNombre.TabIndex = 1;
             this.lblGananciaNombre.Text = "GANANCIA ESTIMADA";
             // 
@@ -471,7 +477,7 @@ namespace DataBeef
             this.lblGananciaValor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.lblGananciaValor.Location = new System.Drawing.Point(60, 37);
             this.lblGananciaValor.Name = "lblGananciaValor";
-            this.lblGananciaValor.Size = new System.Drawing.Size(79, 43);
+            this.lblGananciaValor.Size = new System.Drawing.Size(66, 34);
             this.lblGananciaValor.TabIndex = 2;
             this.lblGananciaValor.Text = "$0,00";
             // 
@@ -482,7 +488,7 @@ namespace DataBeef
             this.lblGananciaPeriodo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblGananciaPeriodo.Location = new System.Drawing.Point(60, 80);
             this.lblGananciaPeriodo.Name = "lblGananciaPeriodo";
-            this.lblGananciaPeriodo.Size = new System.Drawing.Size(151, 19);
+            this.lblGananciaPeriodo.Size = new System.Drawing.Size(133, 15);
             this.lblGananciaPeriodo.TabIndex = 3;
             this.lblGananciaPeriodo.Text = "Sin periodo seleccionado";
             // 
@@ -507,7 +513,7 @@ namespace DataBeef
             this.lblInventarioIcono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(6)))), ((int)(((byte)(0)))));
             this.lblInventarioIcono.Location = new System.Drawing.Point(16, 34);
             this.lblInventarioIcono.Name = "lblInventarioIcono";
-            this.lblInventarioIcono.Size = new System.Drawing.Size(29, 43);
+            this.lblInventarioIcono.Size = new System.Drawing.Size(24, 34);
             this.lblInventarioIcono.TabIndex = 0;
             this.lblInventarioIcono.Text = "■";
             // 
@@ -518,7 +524,7 @@ namespace DataBeef
             this.lblInventarioNombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblInventarioNombre.Location = new System.Drawing.Point(60, 14);
             this.lblInventarioNombre.Name = "lblInventarioNombre";
-            this.lblInventarioNombre.Size = new System.Drawing.Size(171, 21);
+            this.lblInventarioNombre.Size = new System.Drawing.Size(135, 15);
             this.lblInventarioNombre.TabIndex = 1;
             this.lblInventarioNombre.Text = "INVENTARIO DISPONIBLE";
             // 
@@ -529,7 +535,7 @@ namespace DataBeef
             this.lblInventarioValor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.lblInventarioValor.Location = new System.Drawing.Point(60, 37);
             this.lblInventarioValor.Name = "lblInventarioValor";
-            this.lblInventarioValor.Size = new System.Drawing.Size(64, 43);
+            this.lblInventarioValor.Size = new System.Drawing.Size(52, 34);
             this.lblInventarioValor.TabIndex = 2;
             this.lblInventarioValor.Text = "0 kg";
             // 
@@ -540,7 +546,7 @@ namespace DataBeef
             this.lblInventarioPeriodo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblInventarioPeriodo.Location = new System.Drawing.Point(60, 80);
             this.lblInventarioPeriodo.Name = "lblInventarioPeriodo";
-            this.lblInventarioPeriodo.Size = new System.Drawing.Size(151, 19);
+            this.lblInventarioPeriodo.Size = new System.Drawing.Size(133, 15);
             this.lblInventarioPeriodo.TabIndex = 3;
             this.lblInventarioPeriodo.Text = "Sin periodo seleccionado";
             // 
@@ -564,17 +570,24 @@ namespace DataBeef
             this.lblGraficoVentas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.lblGraficoVentas.Location = new System.Drawing.Point(16, 12);
             this.lblGraficoVentas.Name = "lblGraficoVentas";
-            this.lblGraficoVentas.Size = new System.Drawing.Size(147, 25);
+            this.lblGraficoVentas.Size = new System.Drawing.Size(113, 19);
             this.lblGraficoVentas.TabIndex = 0;
             this.lblGraficoVentas.Text = "VENTAS POR MES";
             // 
-            // chartVentas placeholder (Panel)
+            // chartVentas
             // 
             this.chartVentas.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            chartArea3.BackColor = System.Drawing.Color.White;
+            chartArea3.Name = "Ventas";
+            this.chartVentas.ChartAreas.Add(chartArea3);
             this.chartVentas.Location = new System.Drawing.Point(12, 38);
             this.chartVentas.Name = "chartVentas";
+            series3.ChartArea = "Ventas";
+            series3.Color = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(6)))), ((int)(((byte)(0)))));
+            series3.Name = "Ventas";
+            this.chartVentas.Series.Add(series3);
             this.chartVentas.Size = new System.Drawing.Size(936, 180);
             this.chartVentas.TabIndex = 1;
             // 
@@ -597,17 +610,27 @@ namespace DataBeef
             this.lblGraficoInventario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.lblGraficoInventario.Location = new System.Drawing.Point(16, 12);
             this.lblGraficoInventario.Name = "lblGraficoInventario";
-            this.lblGraficoInventario.Size = new System.Drawing.Size(265, 25);
+            this.lblGraficoInventario.Size = new System.Drawing.Size(204, 19);
             this.lblGraficoInventario.TabIndex = 0;
             this.lblGraficoInventario.Text = "DISTRIBUCIÓN DEL INVENTARIO";
             // 
-            // chartInventario placeholder (Panel)
+            // chartInventario
             // 
             this.chartInventario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            chartArea4.BackColor = System.Drawing.Color.White;
+            chartArea4.Name = "Inventario";
+            this.chartInventario.ChartAreas.Add(chartArea4);
+            legend2.Name = "Leyenda";
+            this.chartInventario.Legends.Add(legend2);
             this.chartInventario.Location = new System.Drawing.Point(12, 38);
             this.chartInventario.Name = "chartInventario";
+            series4.ChartArea = "Inventario";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series4.Legend = "Leyenda";
+            series4.Name = "Inventario";
+            this.chartInventario.Series.Add(series4);
             this.chartInventario.Size = new System.Drawing.Size(313, 180);
             this.chartInventario.TabIndex = 1;
             // 
@@ -633,7 +656,7 @@ namespace DataBeef
             this.lblDetalleTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.lblDetalleTitulo.Location = new System.Drawing.Point(16, 12);
             this.lblDetalleTitulo.Name = "lblDetalleTitulo";
-            this.lblDetalleTitulo.Size = new System.Drawing.Size(340, 27);
+            this.lblDetalleTitulo.Size = new System.Drawing.Size(281, 22);
             this.lblDetalleTitulo.TabIndex = 0;
             this.lblDetalleTitulo.Text = "DETALLE DEL REPORTE SELECCIONADO";
             // 
@@ -642,32 +665,31 @@ namespace DataBeef
             this.dgvDetalleReporte.AllowUserToAddRows = false;
             this.dgvDetalleReporte.AllowUserToDeleteRows = false;
             this.dgvDetalleReporte.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
-            this.dgvDetalleReporte.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
+            this.dgvDetalleReporte.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvDetalleReporte.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            this.dgvDetalleReporte.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            this.dgvDetalleReporte.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvDetalleReporte.ColumnHeadersHeight = 38;
             this.dgvDetalleReporte.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(229)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDetalleReporte.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(229)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDetalleReporte.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvDetalleReporte.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvDetalleReporte.Location = new System.Drawing.Point(16, 42);
             this.dgvDetalleReporte.MultiSelect = false;
             this.dgvDetalleReporte.Name = "dgvDetalleReporte";
             this.dgvDetalleReporte.ReadOnly = true;
             this.dgvDetalleReporte.RowHeadersVisible = false;
-            this.dgvDetalleReporte.RowHeadersWidth = 51;
             this.dgvDetalleReporte.Size = new System.Drawing.Size(1288, 180);
             this.dgvDetalleReporte.TabIndex = 1;
             this.dgvDetalleReporte.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
@@ -689,7 +711,7 @@ namespace DataBeef
             this.lblTotalRegistros.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblTotalRegistros.Location = new System.Drawing.Point(16, 231);
             this.lblTotalRegistros.Name = "lblTotalRegistros";
-            this.lblTotalRegistros.Size = new System.Drawing.Size(134, 22);
+            this.lblTotalRegistros.Size = new System.Drawing.Size(106, 17);
             this.lblTotalRegistros.TabIndex = 2;
             this.lblTotalRegistros.Text = "Total de registros: 0";
             // 
@@ -701,7 +723,7 @@ namespace DataBeef
             this.lblValorTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.lblValorTotal.Location = new System.Drawing.Point(1167, 231);
             this.lblValorTotal.Name = "lblValorTotal";
-            this.lblValorTotal.Size = new System.Drawing.Size(125, 22);
+            this.lblValorTotal.Size = new System.Drawing.Size(98, 17);
             this.lblValorTotal.TabIndex = 3;
             this.lblValorTotal.Text = "Valor total: $0,00";
             // 
@@ -716,14 +738,13 @@ namespace DataBeef
             // 
             // FormReportes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.pnlContenido);
             this.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MinimumSize = new System.Drawing.Size(960, 540);
+            this.MinimumSize = new System.Drawing.Size(1050, 720);
             this.Name = "FormReportes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DATABEEF - Reportes y Estadísticas";
@@ -742,12 +763,10 @@ namespace DataBeef
             this.pnlInventario.PerformLayout();
             this.pnlGraficoVentas.ResumeLayout(false);
             this.pnlGraficoVentas.PerformLayout();
-            var __init_chartVentas = this.chartVentas as System.ComponentModel.ISupportInitialize;
-            __init_chartVentas?.EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartVentas)).EndInit();
             this.pnlGraficoInventario.ResumeLayout(false);
             this.pnlGraficoInventario.PerformLayout();
-            var __init_chartInventario = this.chartInventario as System.ComponentModel.ISupportInitialize;
-            __init_chartInventario?.EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartInventario)).EndInit();
             this.pnlDetalle.ResumeLayout(false);
             this.pnlDetalle.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleReporte)).EndInit();

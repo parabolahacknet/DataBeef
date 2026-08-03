@@ -47,6 +47,7 @@
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -59,17 +60,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="data\ReporteDatosSimulados.cs" />
+    <Compile Include="fmReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmReportes.Designer.cs">
+      <DependentUpon>fmReportes.cs</DependentUpon>
+    </Compile>
     <Compile Include="fmTrazabilidad.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fmTrazabilidad.Designer.cs">
       <DependentUpon>fmTrazabilidad.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormReportes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormReportes.Designer.cs">
-      <DependentUpon>FormReportes.cs</DependentUpon>
     </Compile>
     <Compile Include="frmClientes.cs">
       <SubType>Form</SubType>
@@ -139,11 +140,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fmReportes.resx">
+      <DependentUpon>fmReportes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fmTrazabilidad.resx">
       <DependentUpon>fmTrazabilidad.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormReportes.resx">
-      <DependentUpon>FormReportes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmClientes.resx">
       <DependentUpon>frmClientes.cs</DependentUpon>

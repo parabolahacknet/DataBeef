@@ -26,15 +26,14 @@ namespace DataBeef
 
         private void cuiButton1_Click(object sender, EventArgs e)
         {
-            // Indicar éxito de autenticación y cerrar el diálogo de login.
-            // Program.Main iniciará frmMenu cuando este formulario devuelva DialogResult.OK.
-            this.DialogResult = DialogResult.OK;
-            this.Close();
+            frmMenu frmMenu = new frmMenu();
+            frmMenu.Show();
+            this.Hide();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form registro = new frmRegistro();
+            frmRegistro registro = new frmRegistro();
             registro.Show();
             this.Hide();
         }

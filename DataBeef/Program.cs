@@ -14,18 +14,7 @@ namespace DataBeef
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
-            // Mostrar el formulario de inicio de sesión como diálogo. Si el inicio de sesión fue
-            // exitoso (DialogResult.OK), iniciar el bucle principal con frmMenu. Esto asegura
-            // que al cerrar frmMenu el proceso termine completamente.
-            using (var login = new InicioSesion())
-            {
-                var result = login.ShowDialog();
-                if (result == DialogResult.OK)
-                {
-                    Application.Run(new frmMenu());
-                }
-            }
+            Application.Run(new InicioSesion());
         }
     }
 }

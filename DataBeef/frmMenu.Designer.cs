@@ -43,10 +43,6 @@
             this.pnlReportes = new System.Windows.Forms.Panel();
             this.btnReportes = new System.Windows.Forms.Button();
             this.imlMenuIconos = new System.Windows.Forms.ImageList(this.components);
-            this.pnlOpTrazabilidad = new System.Windows.Forms.Panel();
-            this.btnHistorial = new System.Windows.Forms.Button();
-            this.btnConsultaCodigo = new System.Windows.Forms.Button();
-            this.btnLotes = new System.Windows.Forms.Button();
             this.pnlTrazabilidad = new System.Windows.Forms.Panel();
             this.btnTrazabilidad = new System.Windows.Forms.Button();
             this.pnlOpVentas = new System.Windows.Forms.Panel();
@@ -68,6 +64,7 @@
             this.btnCompras = new System.Windows.Forms.Button();
             this.pnlDashboard = new System.Windows.Forms.Panel();
             this.btnDashboard = new System.Windows.Forms.Button();
+            this.pnlOpTrazabilidad = new System.Windows.Forms.Panel();
             this.tlpPrincipal.SuspendLayout();
             this.tlpSecundarioDer.SuspendLayout();
             this.tlpSecundarioIzq.SuspendLayout();
@@ -76,7 +73,6 @@
             this.tableLayoutPanel1.SuspendLayout();
             this.pnlMenuLateral.SuspendLayout();
             this.pnlReportes.SuspendLayout();
-            this.pnlOpTrazabilidad.SuspendLayout();
             this.pnlTrazabilidad.SuspendLayout();
             this.pnlOpVentas.SuspendLayout();
             this.pnlVentas.SuspendLayout();
@@ -227,7 +223,7 @@
             // pnlOpReportes
             // 
             this.pnlOpReportes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlOpReportes.Location = new System.Drawing.Point(0, 504);
+            this.pnlOpReportes.Location = new System.Drawing.Point(0, 422);
             this.pnlOpReportes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlOpReportes.Name = "pnlOpReportes";
             this.pnlOpReportes.Size = new System.Drawing.Size(247, 81);
@@ -238,7 +234,7 @@
             // 
             this.pnlReportes.Controls.Add(this.btnReportes);
             this.pnlReportes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlReportes.Location = new System.Drawing.Point(0, 468);
+            this.pnlReportes.Location = new System.Drawing.Point(0, 386);
             this.pnlReportes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlReportes.Name = "pnlReportes";
             this.pnlReportes.Size = new System.Drawing.Size(247, 36);
@@ -275,76 +271,6 @@
             this.imlMenuIconos.Images.SetKeyName(3, "ventas.png");
             this.imlMenuIconos.Images.SetKeyName(4, "trazabilidad.png");
             this.imlMenuIconos.Images.SetKeyName(5, "reportes.png");
-            // 
-            // pnlOpTrazabilidad
-            // 
-            this.pnlOpTrazabilidad.Controls.Add(this.btnHistorial);
-            this.pnlOpTrazabilidad.Controls.Add(this.btnConsultaCodigo);
-            this.pnlOpTrazabilidad.Controls.Add(this.btnLotes);
-            this.pnlOpTrazabilidad.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlOpTrazabilidad.Location = new System.Drawing.Point(0, 386);
-            this.pnlOpTrazabilidad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pnlOpTrazabilidad.Name = "pnlOpTrazabilidad";
-            this.pnlOpTrazabilidad.Size = new System.Drawing.Size(247, 82);
-            this.pnlOpTrazabilidad.TabIndex = 8;
-            this.pnlOpTrazabilidad.Visible = false;
-            // 
-            // btnHistorial
-            // 
-            this.btnHistorial.BackColor = System.Drawing.Color.White;
-            this.btnHistorial.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnHistorial.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnHistorial.FlatAppearance.BorderSize = 0;
-            this.btnHistorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHistorial.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHistorial.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnHistorial.Location = new System.Drawing.Point(0, 50);
-            this.btnHistorial.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnHistorial.Name = "btnHistorial";
-            this.btnHistorial.Size = new System.Drawing.Size(247, 25);
-            this.btnHistorial.TabIndex = 3;
-            this.btnHistorial.Text = "          Historial";
-            this.btnHistorial.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnHistorial.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnHistorial.UseVisualStyleBackColor = false;
-            // 
-            // btnConsultaCodigo
-            // 
-            this.btnConsultaCodigo.BackColor = System.Drawing.Color.White;
-            this.btnConsultaCodigo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnConsultaCodigo.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnConsultaCodigo.FlatAppearance.BorderSize = 0;
-            this.btnConsultaCodigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConsultaCodigo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultaCodigo.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnConsultaCodigo.Location = new System.Drawing.Point(0, 25);
-            this.btnConsultaCodigo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnConsultaCodigo.Name = "btnConsultaCodigo";
-            this.btnConsultaCodigo.Size = new System.Drawing.Size(247, 25);
-            this.btnConsultaCodigo.TabIndex = 2;
-            this.btnConsultaCodigo.Text = "          Consultar Código";
-            this.btnConsultaCodigo.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnConsultaCodigo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnConsultaCodigo.UseVisualStyleBackColor = false;
-            // 
-            // btnLotes
-            // 
-            this.btnLotes.BackColor = System.Drawing.Color.White;
-            this.btnLotes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnLotes.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnLotes.FlatAppearance.BorderSize = 0;
-            this.btnLotes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLotes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLotes.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnLotes.Location = new System.Drawing.Point(0, 0);
-            this.btnLotes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnLotes.Name = "btnLotes";
-            this.btnLotes.Size = new System.Drawing.Size(247, 25);
-            this.btnLotes.TabIndex = 1;
-            this.btnLotes.Text = "          Lotes         ";
-            this.btnLotes.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnLotes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnLotes.UseVisualStyleBackColor = false;
             // 
             // pnlTrazabilidad
             // 
@@ -700,6 +626,16 @@
             this.btnDashboard.UseVisualStyleBackColor = false;
             this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
+            // pnlOpTrazabilidad
+            // 
+            this.pnlOpTrazabilidad.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlOpTrazabilidad.Location = new System.Drawing.Point(0, 386);
+            this.pnlOpTrazabilidad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlOpTrazabilidad.Name = "pnlOpTrazabilidad";
+            this.pnlOpTrazabilidad.Size = new System.Drawing.Size(247, 0);
+            this.pnlOpTrazabilidad.TabIndex = 8;
+            this.pnlOpTrazabilidad.Visible = false;
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -724,7 +660,6 @@
             this.tableLayoutPanel1.PerformLayout();
             this.pnlMenuLateral.ResumeLayout(false);
             this.pnlReportes.ResumeLayout(false);
-            this.pnlOpTrazabilidad.ResumeLayout(false);
             this.pnlTrazabilidad.ResumeLayout(false);
             this.pnlOpVentas.ResumeLayout(false);
             this.pnlVentas.ResumeLayout(false);
@@ -771,12 +706,9 @@
         private System.Windows.Forms.Button btnFacturacion;
         private System.Windows.Forms.Button btnRegVentas;
         private System.Windows.Forms.Button btnClientes;
-        private System.Windows.Forms.Panel pnlOpTrazabilidad;
-        private System.Windows.Forms.Button btnHistorial;
-        private System.Windows.Forms.Button btnConsultaCodigo;
-        private System.Windows.Forms.Button btnLotes;
         private System.Windows.Forms.Panel pnlOpReportes;
         private System.Windows.Forms.Panel pnlContenido;
+        private System.Windows.Forms.Panel pnlOpTrazabilidad;
     }
 }
 
