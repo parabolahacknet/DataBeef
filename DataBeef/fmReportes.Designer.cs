@@ -58,14 +58,15 @@ namespace DataBeef
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fmReportes));
             this.pnlContenido = new System.Windows.Forms.Panel();
             this.lineaRoja = new System.Windows.Forms.Panel();
             this.lblTitulo = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -130,7 +131,7 @@ namespace DataBeef
             // 
             this.pnlContenido.AutoScroll = true;
             this.pnlContenido.AutoScrollMinSize = new System.Drawing.Size(0, 850);
-            this.pnlContenido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.pnlContenido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
             this.pnlContenido.Controls.Add(this.lineaRoja);
             this.pnlContenido.Controls.Add(this.lblTitulo);
             this.pnlContenido.Controls.Add(this.lblSubtitulo);
@@ -227,7 +228,7 @@ namespace DataBeef
             this.lblFiltroTipo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblFiltroTipo.Location = new System.Drawing.Point(364, 9);
             this.lblFiltroTipo.Name = "lblFiltroTipo";
-            this.lblFiltroTipo.Size = new System.Drawing.Size(82, 15);
+            this.lblFiltroTipo.Size = new System.Drawing.Size(83, 15);
             this.lblFiltroTipo.TabIndex = 2;
             this.lblFiltroTipo.Text = "Tipo de reporte";
             // 
@@ -579,15 +580,15 @@ namespace DataBeef
             this.chartVentas.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            chartArea3.BackColor = System.Drawing.Color.White;
-            chartArea3.Name = "Ventas";
-            this.chartVentas.ChartAreas.Add(chartArea3);
+            chartArea1.BackColor = System.Drawing.Color.White;
+            chartArea1.Name = "Ventas";
+            this.chartVentas.ChartAreas.Add(chartArea1);
             this.chartVentas.Location = new System.Drawing.Point(12, 38);
             this.chartVentas.Name = "chartVentas";
-            series3.ChartArea = "Ventas";
-            series3.Color = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(6)))), ((int)(((byte)(0)))));
-            series3.Name = "Ventas";
-            this.chartVentas.Series.Add(series3);
+            series1.ChartArea = "Ventas";
+            series1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(6)))), ((int)(((byte)(0)))));
+            series1.Name = "Ventas";
+            this.chartVentas.Series.Add(series1);
             this.chartVentas.Size = new System.Drawing.Size(936, 180);
             this.chartVentas.TabIndex = 1;
             // 
@@ -619,18 +620,18 @@ namespace DataBeef
             this.chartInventario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            chartArea4.BackColor = System.Drawing.Color.White;
-            chartArea4.Name = "Inventario";
-            this.chartInventario.ChartAreas.Add(chartArea4);
-            legend2.Name = "Leyenda";
-            this.chartInventario.Legends.Add(legend2);
+            chartArea2.BackColor = System.Drawing.Color.White;
+            chartArea2.Name = "Inventario";
+            this.chartInventario.ChartAreas.Add(chartArea2);
+            legend1.Name = "Leyenda";
+            this.chartInventario.Legends.Add(legend1);
             this.chartInventario.Location = new System.Drawing.Point(12, 38);
             this.chartInventario.Name = "chartInventario";
-            series4.ChartArea = "Inventario";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
-            series4.Legend = "Leyenda";
-            series4.Name = "Inventario";
-            this.chartInventario.Series.Add(series4);
+            series2.ChartArea = "Inventario";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
+            series2.Legend = "Leyenda";
+            series2.Name = "Inventario";
+            this.chartInventario.Series.Add(series2);
             this.chartInventario.Size = new System.Drawing.Size(313, 180);
             this.chartInventario.TabIndex = 1;
             // 
@@ -665,25 +666,25 @@ namespace DataBeef
             this.dgvDetalleReporte.AllowUserToAddRows = false;
             this.dgvDetalleReporte.AllowUserToDeleteRows = false;
             this.dgvDetalleReporte.AllowUserToResizeRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
-            this.dgvDetalleReporte.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
+            this.dgvDetalleReporte.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvDetalleReporte.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            this.dgvDetalleReporte.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            this.dgvDetalleReporte.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvDetalleReporte.ColumnHeadersHeight = 38;
             this.dgvDetalleReporte.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(229)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDetalleReporte.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(229)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDetalleReporte.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvDetalleReporte.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgvDetalleReporte.Location = new System.Drawing.Point(16, 42);
             this.dgvDetalleReporte.MultiSelect = false;
@@ -711,7 +712,7 @@ namespace DataBeef
             this.lblTotalRegistros.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.lblTotalRegistros.Location = new System.Drawing.Point(16, 231);
             this.lblTotalRegistros.Name = "lblTotalRegistros";
-            this.lblTotalRegistros.Size = new System.Drawing.Size(106, 17);
+            this.lblTotalRegistros.Size = new System.Drawing.Size(105, 17);
             this.lblTotalRegistros.TabIndex = 2;
             this.lblTotalRegistros.Text = "Total de registros: 0";
             // 
@@ -736,18 +737,19 @@ namespace DataBeef
             this.dlgMensajes.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
             this.dlgMensajes.Text = null;
             // 
-            // FormReportes
+            // fmReportes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.pnlContenido);
             this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(1050, 720);
-            this.Name = "FormReportes";
+            this.Name = "fmReportes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "DATABEEF - Reportes y Estadísticas";
+            this.Text = "DataBeef";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnlContenido.ResumeLayout(false);
             this.pnlContenido.PerformLayout();

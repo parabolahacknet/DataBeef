@@ -114,11 +114,11 @@
     <Compile Include="frmMenu.Designer.cs">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmProveedores.cs">
+    <Compile Include="frmRegistroProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmProveedores.Designer.cs">
-      <DependentUpon>frmProveedores.cs</DependentUpon>
+    <Compile Include="frmRegistroProveedores.Designer.cs">
+      <DependentUpon>frmRegistroProveedores.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmRecepcionCompras.cs">
       <SubType>Form</SubType>
@@ -126,11 +126,11 @@
     <Compile Include="FrmRecepcionCompras.Designer.cs">
       <DependentUpon>FrmRecepcionCompras.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRegistro.cs">
+    <Compile Include="frmRegistrarCuenta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRegistro.Designer.cs">
-      <DependentUpon>frmRegistro.cs</DependentUpon>
+    <Compile Include="frmRegistrarCuenta.Designer.cs">
+      <DependentUpon>frmRegistrarCuenta.cs</DependentUpon>
     </Compile>
     <Compile Include="frmRegistroVentas.cs">
       <SubType>Form</SubType>
@@ -167,14 +167,14 @@
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmProveedores.resx">
-      <DependentUpon>frmProveedores.cs</DependentUpon>
+    <EmbeddedResource Include="frmRegistroProveedores.resx">
+      <DependentUpon>frmRegistroProveedores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRecepcionCompras.resx">
       <DependentUpon>FrmRecepcionCompras.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRegistro.resx">
-      <DependentUpon>frmRegistro.cs</DependentUpon>
+    <EmbeddedResource Include="frmRegistrarCuenta.resx">
+      <DependentUpon>frmRegistrarCuenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegistroVentas.resx">
       <DependentUpon>frmRegistroVentas.cs</DependentUpon>
@@ -202,6 +202,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoDF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metodo-de-pago.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metodo-de-pago %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\historial-de-transacciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nueva-cuenta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-interface.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\base-de-datos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brush-cleaning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brush-cleaning %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trazabilidad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar-sesion.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

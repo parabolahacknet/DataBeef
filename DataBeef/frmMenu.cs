@@ -2,24 +2,19 @@
 using ModuloVentas;
 using DataBeef;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MenuPrincipal
 {
     public partial class frmMenu : Form
     {
+        public InicioSesion LoginAnterior { get; set; }
+
         public frmMenu()
         {
             InitializeComponent();
-        this.Resize += FrmMenu_Resize;
-        this.FormClosed += FrmMenu_FormClosed;
+            this.Resize += FrmMenu_Resize;
         }
 
         private void btnCompras_Click(object sender, EventArgs e)
@@ -38,7 +33,6 @@ namespace MenuPrincipal
             bntCrtInventario.BackColor = Color.White;
             btnVentas.BackColor = Color.White;
             btnTrazabilidad.BackColor = Color.White;
-            btnDashboard.BackColor = Color.White;
             btnReportes.BackColor = Color.White;
         }
 
@@ -57,7 +51,6 @@ namespace MenuPrincipal
 
             btnVentas.BackColor = Color.White;
             btnTrazabilidad.BackColor = Color.White;
-            btnDashboard.BackColor = Color.White;
             btnCompras.BackColor = Color.White;
             btnReportes.BackColor = Color.White;
         }
@@ -76,7 +69,6 @@ namespace MenuPrincipal
             }
 
             btnTrazabilidad.BackColor = Color.White;
-            btnDashboard.BackColor = Color.White;
             btnCompras.BackColor = Color.White;
             bntCrtInventario.BackColor = Color.White;
             btnReportes.BackColor = Color.White;
@@ -97,7 +89,6 @@ namespace MenuPrincipal
                 btnTrazabilidad.BackColor = Color.White;
             }
 
-            btnDashboard.BackColor = Color.White;
             btnCompras.BackColor = Color.White;
             bntCrtInventario.BackColor = Color.White;
             btnVentas.BackColor = Color.White;
@@ -146,13 +137,6 @@ namespace MenuPrincipal
             }
         }
 
-        private void FrmMenu_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            // Posponer la salida para evitar modificar colecciones mientras se enumeran
-            // Usar Environment.Exit para garantizar la terminación completa del proceso
-            this.BeginInvoke((MethodInvoker)(() => Environment.Exit(0)));
-        }
-
         private void btnReportes_Click(object sender, EventArgs e)
         {
             AbrirFormulario(new fmReportes());
@@ -168,7 +152,6 @@ namespace MenuPrincipal
                 btnReportes.BackColor = Color.White;
             }
 
-                btnDashboard.BackColor = Color.White;
                 btnCompras.BackColor = Color.White;
                 bntCrtInventario.BackColor = Color.White;
                 btnVentas.BackColor = Color.White;
@@ -177,7 +160,6 @@ namespace MenuPrincipal
 
         private void btnDashboard_Click(object sender, EventArgs e)
         {
-            btnDashboard.BackColor = Color.FromArgb(255, 200, 200);
             btnCompras.BackColor = Color.White;
             bntCrtInventario.BackColor = Color.White;
             btnVentas.BackColor = Color.White;
@@ -187,7 +169,9 @@ namespace MenuPrincipal
 
         private void Menu_Load(object sender, EventArgs e)
         {
-            btnDashboard.BackColor = Color.FromArgb(255, 200, 200);
+            AbrirFormulario(new frmRegistroVentas());
+            pnlOpVentas.Visible = true;
+            btnVentas.BackColor = Color.FromArgb(255, 200, 200);
         }
 
         private void btnClientes_Click(object sender, EventArgs e)
@@ -258,6 +242,20 @@ namespace MenuPrincipal
         {
             AbrirFormulario(new frmRegistroVentas());
 
+        }
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void frmMenu_FormClosed_1(object sender, FormClosedEventArgs e)
+        {
+            if (LoginAnterior != null)
+            {
+                LoginAnterior.LimpiarCampos();
+                LoginAnterior.Show();
+            }
         }
     }
 }

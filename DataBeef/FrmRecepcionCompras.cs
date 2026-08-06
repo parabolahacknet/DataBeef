@@ -16,5 +16,10 @@ namespace ModuloVentas
         {
             InitializeComponent();
         }
+
+        private void tableLayoutPanel12_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
