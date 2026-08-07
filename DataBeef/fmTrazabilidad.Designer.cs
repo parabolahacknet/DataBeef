@@ -234,7 +234,7 @@
             this.cuiTextBox1.ImageExpand = new System.Drawing.Point(0, 0);
             this.cuiTextBox1.ImageOffset = new System.Drawing.Point(0, 0);
             this.cuiTextBox1.Location = new System.Drawing.Point(229, 4);
-            this.cuiTextBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.cuiTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cuiTextBox1.Multiline = false;
             this.cuiTextBox1.Name = "cuiTextBox1";
             this.cuiTextBox1.NormalImageTint = System.Drawing.Color.White;
@@ -287,7 +287,7 @@
             this.cuiButton1.NormalImageTint = System.Drawing.Color.Red;
             this.cuiButton1.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.cuiButton1.OutlineThickness = 1F;
-            this.cuiButton1.Padding = new System.Windows.Forms.Padding(12);
+            this.cuiButton1.Padding = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.cuiButton1.PressedBackground = System.Drawing.Color.WhiteSmoke;
             this.cuiButton1.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.cuiButton1.PressedImageTint = System.Drawing.Color.Red;
@@ -296,7 +296,7 @@
             this.cuiButton1.Size = new System.Drawing.Size(219, 44);
             this.cuiButton1.TabIndex = 2;
             this.cuiButton1.TextAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiButton1.TextPadding = 12;
+            this.cuiButton1.TextPadding = -1;
             this.cuiButton1.TextSpacing = 2;
             // 
             // guna2CheckBox1
@@ -420,8 +420,9 @@
             // cuiLabel11
             // 
             this.cuiLabel11.BackColor = System.Drawing.Color.White;
-            this.cuiLabel11.Content = "Your text here!";
+            this.cuiLabel11.Content = "LOT-FAEN-2026-0806";
             this.cuiLabel11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cuiLabel11.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.cuiLabel11.HorizontalAlignment = System.Drawing.StringAlignment.Near;
             this.cuiLabel11.Location = new System.Drawing.Point(111, 3);
             this.cuiLabel11.Name = "cuiLabel11";
@@ -432,8 +433,9 @@
             // cuiLabel12
             // 
             this.cuiLabel12.BackColor = System.Drawing.Color.White;
-            this.cuiLabel12.Content = "Your text here!";
+            this.cuiLabel12.Content = "Ingrese un lote para ver el producto...";
             this.cuiLabel12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cuiLabel12.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.cuiLabel12.HorizontalAlignment = System.Drawing.StringAlignment.Near;
             this.cuiLabel12.Location = new System.Drawing.Point(111, 38);
             this.cuiLabel12.Name = "cuiLabel12";
@@ -444,8 +446,9 @@
             // cuiLabel13
             // 
             this.cuiLabel13.BackColor = System.Drawing.Color.White;
-            this.cuiLabel13.Content = "Your text here!";
+            this.cuiLabel13.Content = "Ingrese un lote para ver el proveedor...";
             this.cuiLabel13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cuiLabel13.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.cuiLabel13.HorizontalAlignment = System.Drawing.StringAlignment.Near;
             this.cuiLabel13.Location = new System.Drawing.Point(111, 73);
             this.cuiLabel13.Name = "cuiLabel13";
@@ -456,8 +459,9 @@
             // cuiLabel14
             // 
             this.cuiLabel14.BackColor = System.Drawing.Color.White;
-            this.cuiLabel14.Content = "Your text here!";
+            this.cuiLabel14.Content = "DD/MM/AAAA - DD/MM/AAAA";
             this.cuiLabel14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cuiLabel14.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.cuiLabel14.HorizontalAlignment = System.Drawing.StringAlignment.Near;
             this.cuiLabel14.Location = new System.Drawing.Point(111, 108);
             this.cuiLabel14.Name = "cuiLabel14";
@@ -468,8 +472,9 @@
             // cuiLabel15
             // 
             this.cuiLabel15.BackColor = System.Drawing.Color.White;
-            this.cuiLabel15.Content = "Your text here!";
+            this.cuiLabel15.Content = "Pendiente de consulta";
             this.cuiLabel15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cuiLabel15.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.cuiLabel15.HorizontalAlignment = System.Drawing.StringAlignment.Near;
             this.cuiLabel15.Location = new System.Drawing.Point(111, 143);
             this.cuiLabel15.Name = "cuiLabel15";
@@ -495,7 +500,7 @@
             this.tabPage3.Controls.Add(this.dataGridView3);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.tabPage3.Size = new System.Drawing.Size(899, 392);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "COMPRAS";
@@ -557,8 +562,8 @@
             this.tabPage5.Controls.Add(this.dataGridView5);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(899, 392);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage5.Size = new System.Drawing.Size(904, 312);
             this.tabPage5.TabIndex = 1;
             this.tabPage5.Text = "PRODUCCIÓN";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -581,7 +586,7 @@
             this.dataGridView5.Name = "dataGridView5";
             this.dataGridView5.ReadOnly = true;
             this.dataGridView5.RowHeadersVisible = false;
-            this.dataGridView5.Size = new System.Drawing.Size(893, 386);
+            this.dataGridView5.Size = new System.Drawing.Size(898, 306);
             this.dataGridView5.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn13
@@ -619,8 +624,8 @@
             this.tabPage6.Controls.Add(this.dataGridView6);
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(899, 392);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage6.Size = new System.Drawing.Size(904, 312);
             this.tabPage6.TabIndex = 3;
             this.tabPage6.Text = "VENTAS";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -643,7 +648,7 @@
             this.dataGridView6.Name = "dataGridView6";
             this.dataGridView6.ReadOnly = true;
             this.dataGridView6.RowHeadersVisible = false;
-            this.dataGridView6.Size = new System.Drawing.Size(893, 386);
+            this.dataGridView6.Size = new System.Drawing.Size(898, 306);
             this.dataGridView6.TabIndex = 2;
             // 
             // dataGridViewTextBoxColumn18
@@ -721,7 +726,7 @@
             this.cuiButton4.NormalImageTint = System.Drawing.Color.Red;
             this.cuiButton4.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.cuiButton4.OutlineThickness = 1F;
-            this.cuiButton4.Padding = new System.Windows.Forms.Padding(12);
+            this.cuiButton4.Padding = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.cuiButton4.PressedBackground = System.Drawing.Color.WhiteSmoke;
             this.cuiButton4.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.cuiButton4.PressedImageTint = System.Drawing.Color.Red;
@@ -730,7 +735,7 @@
             this.cuiButton4.Size = new System.Drawing.Size(225, 66);
             this.cuiButton4.TabIndex = 9;
             this.cuiButton4.TextAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiButton4.TextPadding = 12;
+            this.cuiButton4.TextPadding = -1;
             this.cuiButton4.TextSpacing = 2;
             // 
             // cuiButton5
@@ -760,7 +765,7 @@
             this.cuiButton5.NormalImageTint = System.Drawing.Color.Red;
             this.cuiButton5.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.cuiButton5.OutlineThickness = 1F;
-            this.cuiButton5.Padding = new System.Windows.Forms.Padding(12);
+            this.cuiButton5.Padding = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.cuiButton5.PressedBackground = System.Drawing.Color.WhiteSmoke;
             this.cuiButton5.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.cuiButton5.PressedImageTint = System.Drawing.Color.Red;
@@ -769,7 +774,7 @@
             this.cuiButton5.Size = new System.Drawing.Size(224, 66);
             this.cuiButton5.TabIndex = 3;
             this.cuiButton5.TextAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiButton5.TextPadding = 12;
+            this.cuiButton5.TextPadding = -1;
             this.cuiButton5.TextSpacing = 2;
             // 
             // cuiButton6
@@ -799,7 +804,7 @@
             this.cuiButton6.NormalImageTint = System.Drawing.Color.Red;
             this.cuiButton6.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.cuiButton6.OutlineThickness = 1F;
-            this.cuiButton6.Padding = new System.Windows.Forms.Padding(12);
+            this.cuiButton6.Padding = new System.Windows.Forms.Padding(12, 12, 12, 12);
             this.cuiButton6.PressedBackground = System.Drawing.Color.WhiteSmoke;
             this.cuiButton6.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.cuiButton6.PressedImageTint = System.Drawing.Color.Red;
@@ -808,7 +813,7 @@
             this.cuiButton6.Size = new System.Drawing.Size(224, 66);
             this.cuiButton6.TabIndex = 5;
             this.cuiButton6.TextAlignment = System.Drawing.StringAlignment.Center;
-            this.cuiButton6.TextPadding = 12;
+            this.cuiButton6.TextPadding = -1;
             this.cuiButton6.TextSpacing = 2;
             // 
             // fmTrazabilidad

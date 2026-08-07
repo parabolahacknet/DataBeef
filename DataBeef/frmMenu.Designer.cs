@@ -39,12 +39,14 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.pnlMenuLateral = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.imlMenuIconos = new System.Windows.Forms.ImageList(this.components);
             this.pnlUsuario = new System.Windows.Forms.Panel();
             this.pnlCerrarSession = new System.Windows.Forms.Panel();
-            this.btnCerrarSesion = new System.Windows.Forms.Button();
-            this.imlMenuIconos = new System.Windows.Forms.ImageList(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.pnlOpReportes = new System.Windows.Forms.Panel();
             this.pnlReportes = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
             this.pnlOpTrazabilidad = new System.Windows.Forms.Panel();
             this.pnlTrazabilidad = new System.Windows.Forms.Panel();
@@ -66,6 +68,7 @@
             this.btnProveedores = new System.Windows.Forms.Button();
             this.pnlCompras = new System.Windows.Forms.Panel();
             this.btnCompras = new System.Windows.Forms.Button();
+            this.tlpModulos = new System.Windows.Forms.TableLayoutPanel();
             this.tlpPrincipal.SuspendLayout();
             this.tlpSecundarioDer.SuspendLayout();
             this.tlpSecundarioIzq.SuspendLayout();
@@ -83,6 +86,7 @@
             this.pnlCrtInventario.SuspendLayout();
             this.pnlOpCompras.SuspendLayout();
             this.pnlCompras.SuspendLayout();
+            this.tlpModulos.SuspendLayout();
             this.SuspendLayout();
             // 
             // tlpPrincipal
@@ -206,16 +210,7 @@
             // 
             this.pnlMenuLateral.AutoScroll = true;
             this.pnlMenuLateral.Controls.Add(this.pnlUsuario);
-            this.pnlMenuLateral.Controls.Add(this.pnlOpReportes);
-            this.pnlMenuLateral.Controls.Add(this.pnlReportes);
-            this.pnlMenuLateral.Controls.Add(this.pnlOpTrazabilidad);
-            this.pnlMenuLateral.Controls.Add(this.pnlTrazabilidad);
-            this.pnlMenuLateral.Controls.Add(this.pnlOpVentas);
-            this.pnlMenuLateral.Controls.Add(this.pnlVentas);
-            this.pnlMenuLateral.Controls.Add(this.pnlOpInventario);
-            this.pnlMenuLateral.Controls.Add(this.pnlCrtInventario);
-            this.pnlMenuLateral.Controls.Add(this.pnlOpCompras);
-            this.pnlMenuLateral.Controls.Add(this.pnlCompras);
+            this.pnlMenuLateral.Controls.Add(this.tlpModulos);
             this.pnlMenuLateral.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMenuLateral.Location = new System.Drawing.Point(11, 72);
             this.pnlMenuLateral.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -223,43 +218,26 @@
             this.pnlMenuLateral.Size = new System.Drawing.Size(247, 671);
             this.pnlMenuLateral.TabIndex = 1;
             // 
-            // pnlUsuario
+            // button3
             // 
-            this.pnlUsuario.Controls.Add(this.pnlCerrarSession);
-            this.pnlUsuario.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlUsuario.Location = new System.Drawing.Point(0, 571);
-            this.pnlUsuario.Name = "pnlUsuario";
-            this.pnlUsuario.Size = new System.Drawing.Size(247, 100);
-            this.pnlUsuario.TabIndex = 10;
-            // 
-            // pnlCerrarSession
-            // 
-            this.pnlCerrarSession.Controls.Add(this.btnCerrarSesion);
-            this.pnlCerrarSession.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlCerrarSession.Location = new System.Drawing.Point(0, 64);
-            this.pnlCerrarSession.Name = "pnlCerrarSession";
-            this.pnlCerrarSession.Size = new System.Drawing.Size(247, 36);
-            this.pnlCerrarSession.TabIndex = 0;
-            // 
-            // btnCerrarSesion
-            // 
-            this.btnCerrarSesion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnCerrarSesion.FlatAppearance.BorderSize = 0;
-            this.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrarSesion.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
-            this.btnCerrarSesion.ForeColor = System.Drawing.Color.Red;
-            this.btnCerrarSesion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCerrarSesion.ImageIndex = 6;
-            this.btnCerrarSesion.ImageList = this.imlMenuIconos;
-            this.btnCerrarSesion.Location = new System.Drawing.Point(0, 0);
-            this.btnCerrarSesion.Name = "btnCerrarSesion";
-            this.btnCerrarSesion.Size = new System.Drawing.Size(247, 36);
-            this.btnCerrarSesion.TabIndex = 0;
-            this.btnCerrarSesion.Text = "CERRAR SESIÓN";
-            this.btnCerrarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCerrarSesion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnCerrarSesion.UseVisualStyleBackColor = true;
-            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.button3.ImageIndex = 7;
+            this.button3.ImageList = this.imlMenuIconos;
+            this.button3.Location = new System.Drawing.Point(3, 428);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(241, 36);
+            this.button3.TabIndex = 11;
+            this.button3.Text = " Crear usuarios      ";
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // imlMenuIconos
             // 
@@ -272,26 +250,87 @@
             this.imlMenuIconos.Images.SetKeyName(4, "trazabilidad.png");
             this.imlMenuIconos.Images.SetKeyName(5, "reportes.png");
             this.imlMenuIconos.Images.SetKeyName(6, "cerrar-sesion.png");
+            this.imlMenuIconos.Images.SetKeyName(7, "usuario.png");
+            // 
+            // pnlUsuario
+            // 
+            this.pnlUsuario.Controls.Add(this.pnlCerrarSession);
+            this.pnlUsuario.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlUsuario.Location = new System.Drawing.Point(0, 629);
+            this.pnlUsuario.Name = "pnlUsuario";
+            this.pnlUsuario.Size = new System.Drawing.Size(247, 42);
+            this.pnlUsuario.TabIndex = 10;
+            // 
+            // pnlCerrarSession
+            // 
+            this.pnlCerrarSession.Controls.Add(this.button1);
+            this.pnlCerrarSession.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlCerrarSession.Location = new System.Drawing.Point(0, 6);
+            this.pnlCerrarSession.Name = "pnlCerrarSession";
+            this.pnlCerrarSession.Size = new System.Drawing.Size(247, 36);
+            this.pnlCerrarSession.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.Red;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.ImageIndex = 6;
+            this.button1.ImageList = this.imlMenuIconos;
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(247, 36);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "CERRAR SESIÓN";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pnlOpReportes
             // 
-            this.pnlOpReportes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlOpReportes.Location = new System.Drawing.Point(0, 386);
+            this.pnlOpReportes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlOpReportes.Location = new System.Drawing.Point(3, 424);
             this.pnlOpReportes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlOpReportes.Name = "pnlOpReportes";
-            this.pnlOpReportes.Size = new System.Drawing.Size(247, 81);
+            this.pnlOpReportes.Size = new System.Drawing.Size(241, 1);
             this.pnlOpReportes.TabIndex = 9;
             this.pnlOpReportes.Visible = false;
             // 
             // pnlReportes
             // 
+            this.pnlReportes.Controls.Add(this.button2);
             this.pnlReportes.Controls.Add(this.btnReportes);
-            this.pnlReportes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlReportes.Location = new System.Drawing.Point(0, 350);
+            this.pnlReportes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlReportes.Location = new System.Drawing.Point(3, 384);
             this.pnlReportes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlReportes.Name = "pnlReportes";
-            this.pnlReportes.Size = new System.Drawing.Size(247, 36);
+            this.pnlReportes.Size = new System.Drawing.Size(241, 36);
             this.pnlReportes.TabIndex = 6;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.button2.ImageIndex = 5;
+            this.button2.ImageList = this.imlMenuIconos;
+            this.button2.Location = new System.Drawing.Point(0, 0);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(241, 36);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "  Reportes      ";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnReportes
             // 
@@ -307,7 +346,7 @@
             this.btnReportes.Location = new System.Drawing.Point(0, 0);
             this.btnReportes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Size = new System.Drawing.Size(247, 36);
+            this.btnReportes.Size = new System.Drawing.Size(241, 36);
             this.btnReportes.TabIndex = 0;
             this.btnReportes.Text = "  Reportes      ";
             this.btnReportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -316,22 +355,22 @@
             // 
             // pnlOpTrazabilidad
             // 
-            this.pnlOpTrazabilidad.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlOpTrazabilidad.Location = new System.Drawing.Point(0, 350);
+            this.pnlOpTrazabilidad.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlOpTrazabilidad.Location = new System.Drawing.Point(3, 380);
             this.pnlOpTrazabilidad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlOpTrazabilidad.Name = "pnlOpTrazabilidad";
-            this.pnlOpTrazabilidad.Size = new System.Drawing.Size(247, 0);
+            this.pnlOpTrazabilidad.Size = new System.Drawing.Size(241, 1);
             this.pnlOpTrazabilidad.TabIndex = 8;
             this.pnlOpTrazabilidad.Visible = false;
             // 
             // pnlTrazabilidad
             // 
             this.pnlTrazabilidad.Controls.Add(this.btnTrazabilidad);
-            this.pnlTrazabilidad.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlTrazabilidad.Location = new System.Drawing.Point(0, 314);
+            this.pnlTrazabilidad.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlTrazabilidad.Location = new System.Drawing.Point(3, 340);
             this.pnlTrazabilidad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlTrazabilidad.Name = "pnlTrazabilidad";
-            this.pnlTrazabilidad.Size = new System.Drawing.Size(247, 36);
+            this.pnlTrazabilidad.Size = new System.Drawing.Size(241, 36);
             this.pnlTrazabilidad.TabIndex = 5;
             // 
             // btnTrazabilidad
@@ -348,7 +387,7 @@
             this.btnTrazabilidad.Location = new System.Drawing.Point(0, 0);
             this.btnTrazabilidad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTrazabilidad.Name = "btnTrazabilidad";
-            this.btnTrazabilidad.Size = new System.Drawing.Size(247, 36);
+            this.btnTrazabilidad.Size = new System.Drawing.Size(241, 36);
             this.btnTrazabilidad.TabIndex = 0;
             this.btnTrazabilidad.Text = "  Trazabilidad           ";
             this.btnTrazabilidad.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -360,12 +399,12 @@
             this.pnlOpVentas.Controls.Add(this.btnFacturacion);
             this.pnlOpVentas.Controls.Add(this.btnRegVentas);
             this.pnlOpVentas.Controls.Add(this.btnClientes);
-            this.pnlOpVentas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlOpVentas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlOpVentas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnlOpVentas.Location = new System.Drawing.Point(0, 236);
+            this.pnlOpVentas.Location = new System.Drawing.Point(3, 258);
             this.pnlOpVentas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlOpVentas.Name = "pnlOpVentas";
-            this.pnlOpVentas.Size = new System.Drawing.Size(247, 78);
+            this.pnlOpVentas.Size = new System.Drawing.Size(241, 78);
             this.pnlOpVentas.TabIndex = 7;
             this.pnlOpVentas.Visible = false;
             // 
@@ -381,7 +420,7 @@
             this.btnFacturacion.Location = new System.Drawing.Point(0, 50);
             this.btnFacturacion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnFacturacion.Name = "btnFacturacion";
-            this.btnFacturacion.Size = new System.Drawing.Size(247, 25);
+            this.btnFacturacion.Size = new System.Drawing.Size(241, 25);
             this.btnFacturacion.TabIndex = 3;
             this.btnFacturacion.Text = "          Facturación               ";
             this.btnFacturacion.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -401,7 +440,7 @@
             this.btnRegVentas.Location = new System.Drawing.Point(0, 25);
             this.btnRegVentas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRegVentas.Name = "btnRegVentas";
-            this.btnRegVentas.Size = new System.Drawing.Size(247, 25);
+            this.btnRegVentas.Size = new System.Drawing.Size(241, 25);
             this.btnRegVentas.TabIndex = 2;
             this.btnRegVentas.Text = "          Registro de Ventas ";
             this.btnRegVentas.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -421,7 +460,7 @@
             this.btnClientes.Location = new System.Drawing.Point(0, 0);
             this.btnClientes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Size = new System.Drawing.Size(247, 25);
+            this.btnClientes.Size = new System.Drawing.Size(241, 25);
             this.btnClientes.TabIndex = 1;
             this.btnClientes.Text = "          Clientes           ";
             this.btnClientes.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -432,11 +471,11 @@
             // pnlVentas
             // 
             this.pnlVentas.Controls.Add(this.btnVentas);
-            this.pnlVentas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlVentas.Location = new System.Drawing.Point(0, 200);
+            this.pnlVentas.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlVentas.Location = new System.Drawing.Point(3, 218);
             this.pnlVentas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlVentas.Name = "pnlVentas";
-            this.pnlVentas.Size = new System.Drawing.Size(247, 36);
+            this.pnlVentas.Size = new System.Drawing.Size(241, 36);
             this.pnlVentas.TabIndex = 4;
             // 
             // btnVentas
@@ -453,7 +492,7 @@
             this.btnVentas.Location = new System.Drawing.Point(0, 0);
             this.btnVentas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnVentas.Name = "btnVentas";
-            this.btnVentas.Size = new System.Drawing.Size(247, 36);
+            this.btnVentas.Size = new System.Drawing.Size(241, 36);
             this.btnVentas.TabIndex = 0;
             this.btnVentas.Text = "  Ventas";
             this.btnVentas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -465,11 +504,11 @@
             this.pnlOpInventario.Controls.Add(this.btnEmpaque);
             this.pnlOpInventario.Controls.Add(this.btnDesposte);
             this.pnlOpInventario.Controls.Add(this.btnFaenamiento);
-            this.pnlOpInventario.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlOpInventario.Location = new System.Drawing.Point(0, 125);
+            this.pnlOpInventario.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlOpInventario.Location = new System.Drawing.Point(3, 139);
             this.pnlOpInventario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlOpInventario.Name = "pnlOpInventario";
-            this.pnlOpInventario.Size = new System.Drawing.Size(247, 75);
+            this.pnlOpInventario.Size = new System.Drawing.Size(241, 75);
             this.pnlOpInventario.TabIndex = 4;
             this.pnlOpInventario.Visible = false;
             // 
@@ -485,7 +524,7 @@
             this.btnEmpaque.Location = new System.Drawing.Point(0, 50);
             this.btnEmpaque.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEmpaque.Name = "btnEmpaque";
-            this.btnEmpaque.Size = new System.Drawing.Size(247, 25);
+            this.btnEmpaque.Size = new System.Drawing.Size(241, 25);
             this.btnEmpaque.TabIndex = 3;
             this.btnEmpaque.Text = "          Empaque                ";
             this.btnEmpaque.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -505,7 +544,7 @@
             this.btnDesposte.Location = new System.Drawing.Point(0, 25);
             this.btnDesposte.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDesposte.Name = "btnDesposte";
-            this.btnDesposte.Size = new System.Drawing.Size(247, 25);
+            this.btnDesposte.Size = new System.Drawing.Size(241, 25);
             this.btnDesposte.TabIndex = 2;
             this.btnDesposte.Text = "          Desposte                 ";
             this.btnDesposte.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -525,7 +564,7 @@
             this.btnFaenamiento.Location = new System.Drawing.Point(0, 0);
             this.btnFaenamiento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnFaenamiento.Name = "btnFaenamiento";
-            this.btnFaenamiento.Size = new System.Drawing.Size(247, 25);
+            this.btnFaenamiento.Size = new System.Drawing.Size(241, 25);
             this.btnFaenamiento.TabIndex = 1;
             this.btnFaenamiento.Text = "          Faenamiento           ";
             this.btnFaenamiento.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -536,11 +575,11 @@
             // pnlCrtInventario
             // 
             this.pnlCrtInventario.Controls.Add(this.bntCrtInventario);
-            this.pnlCrtInventario.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlCrtInventario.Location = new System.Drawing.Point(0, 89);
+            this.pnlCrtInventario.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlCrtInventario.Location = new System.Drawing.Point(3, 99);
             this.pnlCrtInventario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlCrtInventario.Name = "pnlCrtInventario";
-            this.pnlCrtInventario.Size = new System.Drawing.Size(247, 36);
+            this.pnlCrtInventario.Size = new System.Drawing.Size(241, 36);
             this.pnlCrtInventario.TabIndex = 3;
             // 
             // bntCrtInventario
@@ -557,7 +596,7 @@
             this.bntCrtInventario.Location = new System.Drawing.Point(0, 0);
             this.bntCrtInventario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bntCrtInventario.Name = "bntCrtInventario";
-            this.bntCrtInventario.Size = new System.Drawing.Size(247, 36);
+            this.bntCrtInventario.Size = new System.Drawing.Size(241, 36);
             this.bntCrtInventario.TabIndex = 0;
             this.bntCrtInventario.Text = "  Inventario               ";
             this.bntCrtInventario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -568,11 +607,11 @@
             // 
             this.pnlOpCompras.Controls.Add(this.btnCompraGanado);
             this.pnlOpCompras.Controls.Add(this.btnProveedores);
-            this.pnlOpCompras.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlOpCompras.Location = new System.Drawing.Point(0, 36);
+            this.pnlOpCompras.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlOpCompras.Location = new System.Drawing.Point(3, 42);
             this.pnlOpCompras.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlOpCompras.Name = "pnlOpCompras";
-            this.pnlOpCompras.Size = new System.Drawing.Size(247, 53);
+            this.pnlOpCompras.Size = new System.Drawing.Size(241, 53);
             this.pnlOpCompras.TabIndex = 2;
             this.pnlOpCompras.Visible = false;
             // 
@@ -588,7 +627,7 @@
             this.btnCompraGanado.Location = new System.Drawing.Point(0, 25);
             this.btnCompraGanado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCompraGanado.Name = "btnCompraGanado";
-            this.btnCompraGanado.Size = new System.Drawing.Size(247, 25);
+            this.btnCompraGanado.Size = new System.Drawing.Size(241, 25);
             this.btnCompraGanado.TabIndex = 2;
             this.btnCompraGanado.Text = "          Compra de materia prima";
             this.btnCompraGanado.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -608,7 +647,7 @@
             this.btnProveedores.Location = new System.Drawing.Point(0, 0);
             this.btnProveedores.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnProveedores.Name = "btnProveedores";
-            this.btnProveedores.Size = new System.Drawing.Size(247, 25);
+            this.btnProveedores.Size = new System.Drawing.Size(241, 25);
             this.btnProveedores.TabIndex = 1;
             this.btnProveedores.Text = "          Proveedores";
             this.btnProveedores.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -619,11 +658,11 @@
             // pnlCompras
             // 
             this.pnlCompras.Controls.Add(this.btnCompras);
-            this.pnlCompras.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlCompras.Location = new System.Drawing.Point(0, 0);
+            this.pnlCompras.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlCompras.Location = new System.Drawing.Point(3, 2);
             this.pnlCompras.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlCompras.Name = "pnlCompras";
-            this.pnlCompras.Size = new System.Drawing.Size(247, 36);
+            this.pnlCompras.Size = new System.Drawing.Size(241, 36);
             this.pnlCompras.TabIndex = 1;
             // 
             // btnCompras
@@ -640,16 +679,50 @@
             this.btnCompras.Location = new System.Drawing.Point(0, 0);
             this.btnCompras.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCompras.Name = "btnCompras";
-            this.btnCompras.Size = new System.Drawing.Size(247, 36);
+            this.btnCompras.Size = new System.Drawing.Size(241, 36);
             this.btnCompras.TabIndex = 0;
             this.btnCompras.Text = "  Compras                  ";
             this.btnCompras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCompras.UseVisualStyleBackColor = false;
             this.btnCompras.Click += new System.EventHandler(this.btnCompras_Click);
             // 
+            // tlpModulos
+            // 
+            this.tlpModulos.ColumnCount = 1;
+            this.tlpModulos.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tlpModulos.Controls.Add(this.pnlCompras, 0, 0);
+            this.tlpModulos.Controls.Add(this.pnlOpCompras, 0, 1);
+            this.tlpModulos.Controls.Add(this.pnlCrtInventario, 0, 2);
+            this.tlpModulos.Controls.Add(this.pnlOpInventario, 0, 3);
+            this.tlpModulos.Controls.Add(this.pnlVentas, 0, 4);
+            this.tlpModulos.Controls.Add(this.pnlOpVentas, 0, 5);
+            this.tlpModulos.Controls.Add(this.pnlTrazabilidad, 0, 6);
+            this.tlpModulos.Controls.Add(this.pnlOpTrazabilidad, 0, 7);
+            this.tlpModulos.Controls.Add(this.pnlReportes, 0, 8);
+            this.tlpModulos.Controls.Add(this.pnlOpReportes, 0, 9);
+            this.tlpModulos.Controls.Add(this.button3, 0, 10);
+            this.tlpModulos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tlpModulos.Location = new System.Drawing.Point(0, 0);
+            this.tlpModulos.Name = "tlpModulos";
+            this.tlpModulos.RowCount = 12;
+            this.tlpModulos.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tlpModulos.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tlpModulos.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tlpModulos.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tlpModulos.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tlpModulos.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tlpModulos.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tlpModulos.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tlpModulos.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tlpModulos.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tlpModulos.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tlpModulos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlpModulos.Size = new System.Drawing.Size(247, 671);
+            this.tlpModulos.TabIndex = 120;
+            // 
             // frmMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1370, 749);
@@ -662,7 +735,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DataBeef";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMenu_FormClosed_1);
             this.Load += new System.EventHandler(this.Menu_Load);
             this.tlpPrincipal.ResumeLayout(false);
             this.tlpSecundarioDer.ResumeLayout(false);
@@ -682,6 +754,7 @@
             this.pnlCrtInventario.ResumeLayout(false);
             this.pnlOpCompras.ResumeLayout(false);
             this.pnlCompras.ResumeLayout(false);
+            this.tlpModulos.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -695,6 +768,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel tlpModulos;
         private System.Windows.Forms.Panel pnlMenuLateral;
         private System.Windows.Forms.ImageList imlMenuIconos;
         private System.Windows.Forms.Panel pnlCrtInventario;
@@ -718,12 +792,14 @@
         private System.Windows.Forms.Button btnFacturacion;
         private System.Windows.Forms.Button btnRegVentas;
         private System.Windows.Forms.Button btnClientes;
-        private System.Windows.Forms.Panel pnlOpReportes;
         private System.Windows.Forms.Panel pnlContenido;
         private System.Windows.Forms.Panel pnlOpTrazabilidad;
         private System.Windows.Forms.Panel pnlUsuario;
         private System.Windows.Forms.Panel pnlCerrarSession;
-        private System.Windows.Forms.Button btnCerrarSesion;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Panel pnlOpReportes;
     }
 }
 

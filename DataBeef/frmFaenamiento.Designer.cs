@@ -148,6 +148,7 @@
             this.textBox6.ReadOnly = true;
             this.textBox6.Size = new System.Drawing.Size(494, 32);
             this.textBox6.TabIndex = 4;
+            this.textBox6.Text = "LOT-FAEN-2026-0806";
             // 
             // label14
             // 
@@ -171,6 +172,7 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(494, 32);
             this.textBox7.TabIndex = 2;
+            this.textBox7.Text = "0.00";
             // 
             // label15
             // 
@@ -252,6 +254,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(242, 32);
             this.textBox2.TabIndex = 2;
+            this.textBox2.Text = "15";
             // 
             // label6
             // 
@@ -292,19 +295,25 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(492, 40);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Seleccionar Ganado Disponible:";
+            this.label3.Text = "Seleccionar Lote Disponible:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // comboBox1
             // 
             this.comboBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Lote #01 ",
+            "Lote #02 ",
+            "Lote #03 "});
             this.comboBox1.Location = new System.Drawing.Point(4, 88);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(492, 27);
             this.comboBox1.TabIndex = 2;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -357,6 +366,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(242, 32);
             this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "Reyes de la Carne";
             // 
             // tableLayoutPanel4
             // 
@@ -454,6 +464,7 @@
             this.textBox5.BackColor = System.Drawing.Color.White;
             this.textBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox5.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.textBox5.Location = new System.Drawing.Point(2, 146);
             this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Multiline = true;
@@ -461,6 +472,8 @@
             this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox5.Size = new System.Drawing.Size(1016, 68);
             this.textBox5.TabIndex = 3;
+            this.textBox5.Text = "Ingrese aquí observaciones sobre el estado sanitario, control de temperatura o no" +
+    "vedades del lote...";
             // 
             // label11
             // 

@@ -259,7 +259,7 @@ namespace ModuloVentas
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(94, 37);
             this.label9.TabIndex = 0;
-            this.label9.Text = "Categiría";
+            this.label9.Text = "Categoría";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // comboBox1
@@ -267,7 +267,7 @@ namespace ModuloVentas
             this.comboBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "carnes",
+            "Carnes",
             "Empaques",
             "Insumos",
             "Sumistros"});
@@ -430,7 +430,7 @@ namespace ModuloVentas
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(94, 38);
             this.label5.TabIndex = 0;
-            this.label5.Text = "Persona de contacto:";
+            this.label5.Text = "Representante:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // textBox3
@@ -443,7 +443,7 @@ namespace ModuloVentas
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(194, 25);
             this.textBox3.TabIndex = 1;
-            this.textBox3.Text = " Ingrese apellido";
+            this.textBox3.Text = " Ingrese representante";
             // 
             // tableLayoutPanel4
             // 
@@ -472,7 +472,7 @@ namespace ModuloVentas
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(94, 38);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Nombre/Apellido";
+            this.label4.Text = "Nombre de la Empresa:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // textBox2
@@ -485,7 +485,7 @@ namespace ModuloVentas
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(194, 25);
             this.textBox2.TabIndex = 1;
-            this.textBox2.Text = " Ingrese nombre y apellido";
+            this.textBox2.Text = " Ingrese nombre de la empresa";
             // 
             // tableLayoutPanel3
             // 
@@ -564,7 +564,7 @@ namespace ModuloVentas
             this.pictureBox1.Location = new System.Drawing.Point(9, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(28, 31);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -604,13 +604,13 @@ namespace ModuloVentas
             this.txtCodigo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtCodigo.Enabled = false;
             this.txtCodigo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigo.ForeColor = System.Drawing.Color.Gray;
+            this.txtCodigo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(249)))), ((int)(((byte)(250)))));
             this.txtCodigo.Location = new System.Drawing.Point(112, 3);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.ReadOnly = true;
             this.txtCodigo.Size = new System.Drawing.Size(194, 25);
             this.txtCodigo.TabIndex = 1;
-            this.txtCodigo.Text = " (Auto)";
+            this.txtCodigo.Text = " (Manual)";
             // 
             // tlpControlesDatosCliente
             // 
@@ -804,7 +804,6 @@ namespace ModuloVentas
             this.tlpListaClientes.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 82.61719F));
             this.tlpListaClientes.Size = new System.Drawing.Size(579, 669);
             this.tlpListaClientes.TabIndex = 1;
-            this.tlpListaClientes.Paint += new System.Windows.Forms.PaintEventHandler(this.tlpListaClientes_Paint);
             // 
             // tlplista
             // 
@@ -829,7 +828,7 @@ namespace ModuloVentas
             this.pictureBox2.Location = new System.Drawing.Point(14, 3);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(28, 34);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
@@ -1055,7 +1054,7 @@ namespace ModuloVentas
             this.pictureBox7.Location = new System.Drawing.Point(3, 3);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(56, 54);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 1;
             this.pictureBox7.TabStop = false;
             // 

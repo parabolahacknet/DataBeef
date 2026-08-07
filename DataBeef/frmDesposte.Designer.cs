@@ -296,8 +296,6 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -323,6 +321,7 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.dataGridView1.GridColor = System.Drawing.Color.Black;
             this.dataGridView1.Location = new System.Drawing.Point(4, 44);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
@@ -399,6 +398,7 @@
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(492, 32);
             this.textBox2.TabIndex = 6;
+            this.textBox2.Text = "340.50";
             // 
             // label4
             // 
@@ -429,8 +429,11 @@
             // comboBox1
             // 
             this.comboBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "LOT-FAEN-2026-0806"});
             this.comboBox1.Location = new System.Drawing.Point(4, 76);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
@@ -460,6 +463,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(492, 32);
             this.textBox1.TabIndex = 5;
+            this.textBox1.Text = "Reyes de la Carne";
             // 
             // tableLayoutPanel7
             // 
@@ -526,6 +530,7 @@
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(501, 32);
             this.textBox4.TabIndex = 8;
+            this.textBox4.Text = "29.50";
             // 
             // textBox3
             // 
@@ -537,6 +542,7 @@
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(501, 32);
             this.textBox3.TabIndex = 7;
+            this.textBox3.Text = "311.00";
             // 
             // label8
             // 

@@ -17,7 +17,7 @@ namespace Control_de_inventario
             InitializeComponent();
         }
 
-        private void label10_Click(object sender, EventArgs e)
+        private void tableLayoutPanel5_Paint(object sender, PaintEventArgs e)
         {
 
         }

@@ -39,18 +39,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.txtContrasena = new CuoreUI.Controls.cuiTextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.btnIniciarSesion = new CuoreUI.Controls.cuiButton();
-            this.txtUsuario = new CuoreUI.Controls.cuiTextBox();
+            this.cuiTextBox2 = new CuoreUI.Controls.cuiTextBox();
+            this.cuiButton1 = new CuoreUI.Controls.cuiButton();
+            this.cuiTextBox1 = new CuoreUI.Controls.cuiTextBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.linkRegistrarse = new System.Windows.Forms.LinkLabel();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -136,10 +132,9 @@
             this.tableLayoutPanel3.Controls.Add(this.label4, 1, 3);
             this.tableLayoutPanel3.Controls.Add(this.label5, 1, 5);
             this.tableLayoutPanel3.Controls.Add(this.label6, 1, 9);
-            this.tableLayoutPanel3.Controls.Add(this.txtContrasena, 1, 11);
-            this.tableLayoutPanel3.Controls.Add(this.label7, 1, 13);
-            this.tableLayoutPanel3.Controls.Add(this.btnIniciarSesion, 1, 15);
-            this.tableLayoutPanel3.Controls.Add(this.txtUsuario, 1, 7);
+            this.tableLayoutPanel3.Controls.Add(this.cuiTextBox2, 1, 11);
+            this.tableLayoutPanel3.Controls.Add(this.cuiButton1, 1, 15);
+            this.tableLayoutPanel3.Controls.Add(this.cuiTextBox1, 1, 7);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 1, 17);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(380, 3);
@@ -177,7 +172,6 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(386, 19);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Bienvenido";
             // 
             // label4
             // 
@@ -213,124 +207,110 @@
             this.label6.TabIndex = 4;
             this.label6.Text = "Contraseña";
             // 
-            // txtContrasena
+            // cuiTextBox2
             // 
-            this.txtContrasena.BackgroundColor = System.Drawing.Color.White;
-            this.txtContrasena.Content = "";
-            this.txtContrasena.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtContrasena.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtContrasena.FocusBackgroundColor = System.Drawing.Color.White;
-            this.txtContrasena.FocusImageTint = System.Drawing.Color.White;
-            this.txtContrasena.FocusOutlineColor = System.Drawing.Color.White;
-            this.txtContrasena.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.txtContrasena.ForeColor = System.Drawing.Color.Gray;
-            this.txtContrasena.Image = null;
-            this.txtContrasena.ImageExpand = new System.Drawing.Point(0, 0);
-            this.txtContrasena.ImageOffset = new System.Drawing.Point(0, 0);
-            this.txtContrasena.Location = new System.Drawing.Point(88, 309);
-            this.txtContrasena.Margin = new System.Windows.Forms.Padding(4);
-            this.txtContrasena.Multiline = false;
-            this.txtContrasena.Name = "txtContrasena";
-            this.txtContrasena.NormalImageTint = System.Drawing.Color.White;
-            this.txtContrasena.OutlineColor = System.Drawing.Color.White;
-            this.txtContrasena.Padding = new System.Windows.Forms.Padding(20, 7, 20, 0);
-            this.txtContrasena.PasswordChar = true;
-            this.txtContrasena.PlaceholderColor = System.Drawing.Color.LightGray;
-            this.txtContrasena.PlaceholderText = "Ingrese su contraseña";
-            this.txtContrasena.Rounding = new System.Windows.Forms.Padding(8);
-            this.txtContrasena.Size = new System.Drawing.Size(384, 34);
-            this.txtContrasena.TabIndex = 5;
-            this.txtContrasena.TextOffset = new System.Drawing.Size(0, 0);
-            this.txtContrasena.UnderlinedStyle = true;
+            this.cuiTextBox2.BackgroundColor = System.Drawing.Color.White;
+            this.cuiTextBox2.Content = "";
+            this.cuiTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cuiTextBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cuiTextBox2.FocusBackgroundColor = System.Drawing.Color.White;
+            this.cuiTextBox2.FocusImageTint = System.Drawing.Color.White;
+            this.cuiTextBox2.FocusOutlineColor = System.Drawing.Color.White;
+            this.cuiTextBox2.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.cuiTextBox2.ForeColor = System.Drawing.Color.Gray;
+            this.cuiTextBox2.Image = null;
+            this.cuiTextBox2.ImageExpand = new System.Drawing.Point(0, 0);
+            this.cuiTextBox2.ImageOffset = new System.Drawing.Point(0, 0);
+            this.cuiTextBox2.Location = new System.Drawing.Point(88, 309);
+            this.cuiTextBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cuiTextBox2.Multiline = false;
+            this.cuiTextBox2.Name = "cuiTextBox2";
+            this.cuiTextBox2.NormalImageTint = System.Drawing.Color.White;
+            this.cuiTextBox2.OutlineColor = System.Drawing.Color.White;
+            this.cuiTextBox2.Padding = new System.Windows.Forms.Padding(20, 7, 20, 0);
+            this.cuiTextBox2.PasswordChar = true;
+            this.cuiTextBox2.PlaceholderColor = System.Drawing.Color.LightGray;
+            this.cuiTextBox2.PlaceholderText = "Ingrese su contraseña";
+            this.cuiTextBox2.Rounding = new System.Windows.Forms.Padding(8);
+            this.cuiTextBox2.Size = new System.Drawing.Size(384, 34);
+            this.cuiTextBox2.TabIndex = 5;
+            this.cuiTextBox2.TextOffset = new System.Drawing.Size(0, 0);
+            this.cuiTextBox2.UnderlinedStyle = true;
             // 
-            // label7
+            // cuiButton1
             // 
-            this.label7.AutoSize = true;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.label7.Location = new System.Drawing.Point(87, 355);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(386, 22);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "¿Olvidó su contraseña?";
+            this.cuiButton1.CheckButton = false;
+            this.cuiButton1.Checked = false;
+            this.cuiButton1.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.cuiButton1.CheckedForeColor = System.Drawing.Color.White;
+            this.cuiButton1.CheckedImageTint = System.Drawing.Color.White;
+            this.cuiButton1.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.cuiButton1.Content = "INGRESAR";
+            this.cuiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cuiButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.cuiButton1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cuiButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold);
+            this.cuiButton1.ForeColor = System.Drawing.Color.White;
+            this.cuiButton1.HoverBackground = System.Drawing.Color.White;
+            this.cuiButton1.HoverForeColor = System.Drawing.Color.DimGray;
+            this.cuiButton1.HoverImageTint = System.Drawing.Color.DimGray;
+            this.cuiButton1.HoverOutline = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.cuiButton1.Image = null;
+            this.cuiButton1.ImageExpand = new System.Drawing.Point(0, 0);
+            this.cuiButton1.Location = new System.Drawing.Point(87, 388);
+            this.cuiButton1.Name = "cuiButton1";
+            this.cuiButton1.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.cuiButton1.NormalForeColor = System.Drawing.Color.White;
+            this.cuiButton1.NormalImageTint = System.Drawing.Color.Black;
+            this.cuiButton1.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.cuiButton1.OutlineThickness = 1F;
+            this.cuiButton1.PressedBackground = System.Drawing.Color.WhiteSmoke;
+            this.cuiButton1.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.cuiButton1.PressedImageTint = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.cuiButton1.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.cuiButton1.Rounding = new System.Windows.Forms.Padding(8);
+            this.cuiButton1.Size = new System.Drawing.Size(386, 39);
+            this.cuiButton1.TabIndex = 7;
+            this.cuiButton1.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.cuiButton1.TextPadding = -1;
+            this.cuiButton1.TextSpacing = 2;
+            this.cuiButton1.Click += new System.EventHandler(this.cuiButton1_Click);
             // 
-            // btnIniciarSesion
+            // cuiTextBox1
             // 
-            this.btnIniciarSesion.CheckButton = false;
-            this.btnIniciarSesion.Checked = false;
-            this.btnIniciarSesion.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
-            this.btnIniciarSesion.CheckedForeColor = System.Drawing.Color.White;
-            this.btnIniciarSesion.CheckedImageTint = System.Drawing.Color.White;
-            this.btnIniciarSesion.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
-            this.btnIniciarSesion.Content = "INICIAR SESIÓN";
-            this.btnIniciarSesion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnIniciarSesion.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnIniciarSesion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnIniciarSesion.Font = new System.Drawing.Font("Segoe UI Semibold", 12.75F, System.Drawing.FontStyle.Bold);
-            this.btnIniciarSesion.ForeColor = System.Drawing.Color.White;
-            this.btnIniciarSesion.HoverBackground = System.Drawing.Color.White;
-            this.btnIniciarSesion.HoverForeColor = System.Drawing.Color.DimGray;
-            this.btnIniciarSesion.HoverImageTint = System.Drawing.Color.DimGray;
-            this.btnIniciarSesion.HoverOutline = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnIniciarSesion.Image = null;
-            this.btnIniciarSesion.ImageExpand = new System.Drawing.Point(0, 0);
-            this.btnIniciarSesion.Location = new System.Drawing.Point(87, 388);
-            this.btnIniciarSesion.Name = "btnIniciarSesion";
-            this.btnIniciarSesion.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnIniciarSesion.NormalForeColor = System.Drawing.Color.White;
-            this.btnIniciarSesion.NormalImageTint = System.Drawing.Color.Black;
-            this.btnIniciarSesion.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnIniciarSesion.OutlineThickness = 1F;
-            this.btnIniciarSesion.Padding = new System.Windows.Forms.Padding(12);
-            this.btnIniciarSesion.PressedBackground = System.Drawing.Color.WhiteSmoke;
-            this.btnIniciarSesion.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.btnIniciarSesion.PressedImageTint = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.btnIniciarSesion.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnIniciarSesion.Rounding = new System.Windows.Forms.Padding(8);
-            this.btnIniciarSesion.Size = new System.Drawing.Size(386, 39);
-            this.btnIniciarSesion.TabIndex = 7;
-            this.btnIniciarSesion.TextAlignment = System.Drawing.StringAlignment.Center;
-            this.btnIniciarSesion.TextPadding = 12;
-            this.btnIniciarSesion.TextSpacing = 2;
-            this.btnIniciarSesion.Click += new System.EventHandler(this.btnIniciarSesion_Click);
-            // 
-            // txtUsuario
-            // 
-            this.txtUsuario.BackgroundColor = System.Drawing.Color.White;
-            this.txtUsuario.Content = "";
-            this.txtUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtUsuario.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtUsuario.FocusBackgroundColor = System.Drawing.Color.White;
-            this.txtUsuario.FocusImageTint = System.Drawing.Color.White;
-            this.txtUsuario.FocusOutlineColor = System.Drawing.Color.White;
-            this.txtUsuario.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.txtUsuario.ForeColor = System.Drawing.Color.Gray;
-            this.txtUsuario.Image = null;
-            this.txtUsuario.ImageExpand = new System.Drawing.Point(0, 0);
-            this.txtUsuario.ImageOffset = new System.Drawing.Point(0, 0);
-            this.txtUsuario.Location = new System.Drawing.Point(88, 231);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4);
-            this.txtUsuario.Multiline = false;
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.NormalImageTint = System.Drawing.Color.White;
-            this.txtUsuario.OutlineColor = System.Drawing.Color.White;
-            this.txtUsuario.Padding = new System.Windows.Forms.Padding(20, 8, 20, 0);
-            this.txtUsuario.PasswordChar = false;
-            this.txtUsuario.PlaceholderColor = System.Drawing.Color.LightGray;
-            this.txtUsuario.PlaceholderText = "Ingrese su usuario";
-            this.txtUsuario.Rounding = new System.Windows.Forms.Padding(8);
-            this.txtUsuario.Size = new System.Drawing.Size(384, 36);
-            this.txtUsuario.TabIndex = 9;
-            this.txtUsuario.TextOffset = new System.Drawing.Size(0, 0);
-            this.txtUsuario.UnderlinedStyle = true;
+            this.cuiTextBox1.BackgroundColor = System.Drawing.Color.White;
+            this.cuiTextBox1.Content = "";
+            this.cuiTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cuiTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cuiTextBox1.FocusBackgroundColor = System.Drawing.Color.White;
+            this.cuiTextBox1.FocusImageTint = System.Drawing.Color.White;
+            this.cuiTextBox1.FocusOutlineColor = System.Drawing.Color.White;
+            this.cuiTextBox1.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.cuiTextBox1.ForeColor = System.Drawing.Color.Gray;
+            this.cuiTextBox1.Image = null;
+            this.cuiTextBox1.ImageExpand = new System.Drawing.Point(0, 0);
+            this.cuiTextBox1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.cuiTextBox1.Location = new System.Drawing.Point(88, 231);
+            this.cuiTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cuiTextBox1.Multiline = false;
+            this.cuiTextBox1.Name = "cuiTextBox1";
+            this.cuiTextBox1.NormalImageTint = System.Drawing.Color.White;
+            this.cuiTextBox1.OutlineColor = System.Drawing.Color.White;
+            this.cuiTextBox1.Padding = new System.Windows.Forms.Padding(20, 8, 20, 0);
+            this.cuiTextBox1.PasswordChar = false;
+            this.cuiTextBox1.PlaceholderColor = System.Drawing.Color.LightGray;
+            this.cuiTextBox1.PlaceholderText = "Ingrese su usuario";
+            this.cuiTextBox1.Rounding = new System.Windows.Forms.Padding(8);
+            this.cuiTextBox1.Size = new System.Drawing.Size(384, 36);
+            this.cuiTextBox1.TabIndex = 9;
+            this.cuiTextBox1.TextOffset = new System.Drawing.Size(0, 0);
+            this.cuiTextBox1.UnderlinedStyle = true;
             // 
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.ColumnCount = 2;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Controls.Add(this.label8, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.linkRegistrarse, 1, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(87, 446);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
@@ -338,34 +318,6 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(386, 19);
             this.tableLayoutPanel4.TabIndex = 10;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.label8.Location = new System.Drawing.Point(3, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(187, 19);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "¿Nuevo aquí?";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // linkRegistrarse
-            // 
-            this.linkRegistrarse.ActiveLinkColor = System.Drawing.Color.Black;
-            this.linkRegistrarse.AutoSize = true;
-            this.linkRegistrarse.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.linkRegistrarse.Font = new System.Drawing.Font("Segoe UI", 11.25F);
-            this.linkRegistrarse.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.linkRegistrarse.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.linkRegistrarse.Location = new System.Drawing.Point(196, 0);
-            this.linkRegistrarse.Name = "linkRegistrarse";
-            this.linkRegistrarse.Size = new System.Drawing.Size(187, 19);
-            this.linkRegistrarse.TabIndex = 1;
-            this.linkRegistrarse.TabStop = true;
-            this.linkRegistrarse.Text = "Registrarse";
-            this.linkRegistrarse.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkRegistrarse_LinkClicked);
             // 
             // InicioSesion
             // 
@@ -384,8 +336,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
-            this.tableLayoutPanel4.ResumeLayout(false);
-            this.tableLayoutPanel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -402,13 +352,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private CuoreUI.Controls.cuiTextBox txtContrasena;
-        private System.Windows.Forms.Label label7;
-        private CuoreUI.Controls.cuiButton btnIniciarSesion;
-        private CuoreUI.Controls.cuiTextBox txtUsuario;
+        private CuoreUI.Controls.cuiTextBox cuiTextBox2;
+        private CuoreUI.Controls.cuiButton cuiButton1;
+        private CuoreUI.Controls.cuiTextBox cuiTextBox1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.LinkLabel linkRegistrarse;
     }
 }
 

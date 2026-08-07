@@ -9,12 +9,11 @@ namespace MenuPrincipal
 {
     public partial class frmMenu : Form
     {
-        public InicioSesion LoginAnterior { get; set; }
-
         public frmMenu()
         {
             InitializeComponent();
-            this.Resize += FrmMenu_Resize;
+        this.Resize += FrmMenu_Resize;
+        this.FormClosed += FrmMenu_FormClosed;
         }
 
         private void btnCompras_Click(object sender, EventArgs e)
@@ -137,6 +136,13 @@ namespace MenuPrincipal
             }
         }
 
+        private void FrmMenu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // Posponer la salida para evitar modificar colecciones mientras se enumeran
+            // Usar Environment.Exit para garantizar la terminación completa del proceso
+            this.BeginInvoke((MethodInvoker)(() => Environment.Exit(0)));
+        }
+
         private void btnReportes_Click(object sender, EventArgs e)
         {
             AbrirFormulario(new fmReportes());
@@ -169,9 +175,9 @@ namespace MenuPrincipal
 
         private void Menu_Load(object sender, EventArgs e)
         {
-            AbrirFormulario(new frmRegistroVentas());
-            pnlOpVentas.Visible = true;
-            btnVentas.BackColor = Color.FromArgb(255, 200, 200);
+            AbrirFormulario(new frmProveedores());
+            pnlOpCompras.Visible = true;
+            btnCompras.BackColor = Color.FromArgb(255, 200, 200);
         }
 
         private void btnClientes_Click(object sender, EventArgs e)
@@ -244,18 +250,21 @@ namespace MenuPrincipal
 
         }
 
-        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
+            InicioSesion login = new InicioSesion();
+            login.Show();
             this.Close();
         }
 
-        private void frmMenu_FormClosed_1(object sender, FormClosedEventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            if (LoginAnterior != null)
-            {
-                LoginAnterior.LimpiarCampos();
-                LoginAnterior.Show();
-            }
+            AbrirFormulario(new frmRegistrarCuenta());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new fmReportes());
         }
     }
 }

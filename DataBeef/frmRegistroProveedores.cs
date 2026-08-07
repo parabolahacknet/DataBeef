@@ -33,10 +33,5 @@ namespace ModuloVentas
         {
 
         }
-
-        private void tlpListaClientes_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }
