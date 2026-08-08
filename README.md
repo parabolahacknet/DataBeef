@@ -32,3 +32,7 @@ https://iconify.design
 Ajustes:
 
 Stroke width: 11 px
+
+Color texto:
+
+RGB: 225, 0, 0
