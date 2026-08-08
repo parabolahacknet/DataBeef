@@ -19,3 +19,10 @@ Remove-Item -Recurse -Force .\packages -ErrorAction SilentlyContinue
 ```powershell
 Update-Package -Reinstall
 ```
+
+## Agradecimientos
+Íconos de:
+
+https://phosphoricons.com
+
+https://lucide.dev
