@@ -17,8 +17,6 @@ namespace Menú
         {
             InitializeComponent();
             AbrirFormulario(new frmGestionProovedores());
-            // Registrar handler para forzar la salida del proceso cuando este formulario se cierre
-            this.FormClosed += frmMenu2_FormClosed;
         }
 
         //metodo para reusar codigo en cambiar color de los lbl de los modulos
@@ -39,18 +37,6 @@ namespace Menú
             
         }
 
-        private void frmMenu2_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            // Terminación forzada del proceso como último recurso para asegurar que la aplicación no quede viva
-            try
-            {
-                Environment.Exit(0);
-            }
-            catch
-            {
-                // ignorar cualquier error en la terminación
-            }
-        }
 
         static void MostrarRaya(Label uno, Label dos, Label tres, Label cuatro, Label cinco, Label seis)
         {
@@ -134,6 +120,7 @@ namespace Menú
             lblNombreUsuario.Text = UsuarioActual.Nombre;
         }
 
+        // Matar el proceso del prograna
         private bool exiting = false;
         private void frmMenu2_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -172,6 +159,19 @@ namespace Menú
                 }));
             }
 
+        }
+
+        private void frmMenu2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // Terminación forzada del proceso como último recurso para asegurar que la aplicación no quede viva
+            try
+            {
+                Environment.Exit(0);
+            }
+            catch
+            {
+                // ignorar cualquier error en la terminación
+            }
         }
     }
 }
