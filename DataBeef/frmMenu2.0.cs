@@ -1,14 +1,8 @@
 ﻿using DataBeef;
 using InventarioLospulpos;
-using ModuloVentas;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Menú
@@ -23,6 +17,8 @@ namespace Menú
         {
             InitializeComponent();
             AbrirFormulario(new frmGestionProovedores());
+            // Registrar handler para forzar la salida del proceso cuando este formulario se cierre
+            this.FormClosed += frmMenu2_FormClosed;
         }
 
         //metodo para reusar codigo en cambiar color de los lbl de los modulos
@@ -41,6 +37,19 @@ namespace Menú
             seis.ForeColor = Color.Black;
             seis.BackColor = Color.White;
             
+        }
+
+        private void frmMenu2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            // Terminación forzada del proceso como último recurso para asegurar que la aplicación no quede viva
+            try
+            {
+                Environment.Exit(0);
+            }
+            catch
+            {
+                // ignorar cualquier error en la terminación
+            }
         }
 
         static void MostrarRaya(Label uno, Label dos, Label tres, Label cuatro, Label cinco, Label seis)
@@ -123,6 +132,46 @@ namespace Menú
         private void frmMenu2_Load(object sender, EventArgs e)
         {
             lblNombreUsuario.Text = UsuarioActual.Nombre;
+        }
+
+        private bool exiting = false;
+        private void frmMenu2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (!exiting)
+            {
+                exiting = true;
+                // Intentamos cerrar de forma segura todos los formularios abiertos (incluido InicioSesion oculto
+                // y los formularios embebidos en el panel). Usamos ToArray() para evitar InvalidOperationException
+                // por modificación de la colección mientras la recorremos.
+                this.BeginInvoke((MethodInvoker)(() =>
+                {
+                    try
+                    {
+                        var abiertos = Application.OpenForms.Cast<Form>().ToArray();
+                        foreach (var f in abiertos)
+                        {
+                            // Saltar este formulario porque ya se está cerrando
+                            if (object.ReferenceEquals(f, this))
+                                continue;
+
+                            try
+                            {
+                                f.Close();
+                            }
+                            catch
+                            {
+                                // ignorar excepciones al cerrar formularios individuales
+                            }
+                        }
+                    }
+                    finally
+                    {
+                        // Forzamos la salida como fallback
+                        try { Application.Exit(); } catch { Environment.Exit(0); }
+                    }
+                }));
+            }
+
         }
     }
 }

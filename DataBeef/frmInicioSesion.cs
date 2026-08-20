@@ -65,8 +65,9 @@ namespace DataBeef
                         UsuarioActual.IdRol = Convert.ToInt32(dr["IdRol"]);
 
                         MessageBox.Show("Bienvenido, " + dr["Nombre"].ToString());
-                        frmMenu2 frmMenu2 = new frmMenu2();
-                        frmMenu2.Show();
+                        // cuando creas y muestras el menú desde InicioSesion
+                        var menu = new frmMenu2();
+                        menu.Show(this); // asigna InicioSesion como Owner del menú
                         this.Hide();
 
                     }

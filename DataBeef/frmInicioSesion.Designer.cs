@@ -60,7 +60,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(944, 501);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1584, 861);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -76,16 +76,16 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(371, 495);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(627, 855);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::DataBeef.Properties.Resources.centered_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 102);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 174);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(365, 291);
+            this.pictureBox1.Size = new System.Drawing.Size(621, 507);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -106,7 +106,7 @@
             this.tableLayoutPanel3.Controls.Add(this.txtUsuario, 1, 7);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 1, 17);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(380, 3);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(636, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 19;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.451499F));
@@ -128,7 +128,7 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.779633F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.2F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.57F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(561, 495);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(945, 855);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
             // label3
@@ -137,9 +137,9 @@
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(87, 47);
+            this.label3.Location = new System.Drawing.Point(144, 81);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(386, 19);
+            this.label3.Size = new System.Drawing.Size(655, 33);
             this.label3.TabIndex = 0;
             // 
             // label4
@@ -147,9 +147,9 @@
             this.label4.AutoSize = true;
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("Tahoma", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(87, 74);
+            this.label4.Location = new System.Drawing.Point(144, 128);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(386, 108);
+            this.label4.Size = new System.Drawing.Size(655, 186);
             this.label4.TabIndex = 1;
             this.label4.Text = "Sistema de Gestión\r\nCárnica";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -159,9 +159,9 @@
             this.label5.AutoSize = true;
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(87, 209);
+            this.label5.Location = new System.Drawing.Point(144, 362);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(386, 23);
+            this.label5.Size = new System.Drawing.Size(655, 39);
             this.label5.TabIndex = 2;
             this.label5.Text = "Usuario:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -171,9 +171,9 @@
             this.label6.AutoSize = true;
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(87, 287);
+            this.label6.Location = new System.Drawing.Point(144, 495);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(386, 23);
+            this.label6.Size = new System.Drawing.Size(655, 39);
             this.label6.TabIndex = 4;
             this.label6.Text = "Contraseña:";
             this.label6.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
@@ -192,18 +192,18 @@
             this.txtPassword.Image = null;
             this.txtPassword.ImageExpand = new System.Drawing.Point(0, 0);
             this.txtPassword.ImageOffset = new System.Drawing.Point(0, 0);
-            this.txtPassword.Location = new System.Drawing.Point(88, 315);
+            this.txtPassword.Location = new System.Drawing.Point(145, 540);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
             this.txtPassword.Multiline = false;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.NormalImageTint = System.Drawing.Color.White;
             this.txtPassword.OutlineColor = System.Drawing.Color.White;
-            this.txtPassword.Padding = new System.Windows.Forms.Padding(20, 8, 20, 0);
+            this.txtPassword.Padding = new System.Windows.Forms.Padding(20, 24, 20, 0);
             this.txtPassword.PasswordChar = true;
             this.txtPassword.PlaceholderColor = System.Drawing.Color.Gray;
             this.txtPassword.PlaceholderText = "Ingrese su contraseña";
             this.txtPassword.Rounding = new System.Windows.Forms.Padding(8);
-            this.txtPassword.Size = new System.Drawing.Size(384, 36);
+            this.txtPassword.Size = new System.Drawing.Size(653, 68);
             this.txtPassword.TabIndex = 5;
             this.txtPassword.TextOffset = new System.Drawing.Size(0, 0);
             this.txtPassword.UnderlinedStyle = true;
@@ -228,7 +228,7 @@
             this.btnIngresar.HoverOutline = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnIngresar.Image = null;
             this.btnIngresar.ImageExpand = new System.Drawing.Point(0, 0);
-            this.btnIngresar.Location = new System.Drawing.Point(87, 390);
+            this.btnIngresar.Location = new System.Drawing.Point(144, 670);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.NormalBackground = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnIngresar.NormalForeColor = System.Drawing.Color.White;
@@ -240,7 +240,7 @@
             this.btnIngresar.PressedImageTint = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.btnIngresar.PressedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnIngresar.Rounding = new System.Windows.Forms.Padding(8);
-            this.btnIngresar.Size = new System.Drawing.Size(386, 40);
+            this.btnIngresar.Size = new System.Drawing.Size(655, 73);
             this.btnIngresar.TabIndex = 7;
             this.btnIngresar.TextAlignment = System.Drawing.StringAlignment.Center;
             this.btnIngresar.TextPadding = -1;
@@ -261,18 +261,18 @@
             this.txtUsuario.Image = null;
             this.txtUsuario.ImageExpand = new System.Drawing.Point(0, 0);
             this.txtUsuario.ImageOffset = new System.Drawing.Point(0, 0);
-            this.txtUsuario.Location = new System.Drawing.Point(88, 237);
+            this.txtUsuario.Location = new System.Drawing.Point(145, 407);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.txtUsuario.Multiline = false;
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.NormalImageTint = System.Drawing.Color.White;
             this.txtUsuario.OutlineColor = System.Drawing.Color.White;
-            this.txtUsuario.Padding = new System.Windows.Forms.Padding(20, 9, 20, 0);
+            this.txtUsuario.Padding = new System.Windows.Forms.Padding(20, 25, 20, 0);
             this.txtUsuario.PasswordChar = false;
             this.txtUsuario.PlaceholderColor = System.Drawing.Color.Gray;
             this.txtUsuario.PlaceholderText = "Ingrese su usuario";
             this.txtUsuario.Rounding = new System.Windows.Forms.Padding(8);
-            this.txtUsuario.Size = new System.Drawing.Size(384, 38);
+            this.txtUsuario.Size = new System.Drawing.Size(653, 71);
             this.txtUsuario.TabIndex = 9;
             this.txtUsuario.TextOffset = new System.Drawing.Size(0, 0);
             this.txtUsuario.UnderlinedStyle = true;
@@ -283,24 +283,25 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(87, 449);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(144, 772);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(386, 19);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(655, 38);
             this.tableLayoutPanel4.TabIndex = 10;
             // 
             // InicioSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(944, 501);
+            this.ClientSize = new System.Drawing.Size(1584, 861);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "InicioSesion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DataBeef";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.InicioSesion_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
