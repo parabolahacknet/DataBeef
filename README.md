@@ -19,3 +19,20 @@ Remove-Item -Recurse -Force .\packages -ErrorAction SilentlyContinue
 ```powershell
 Update-Package -Reinstall
 ```
+
+## Agradecimientos
+Íconos de:
+
+https://phosphoricons.com
+
+https://lucide.dev
+
+https://iconify.design
+
+Ajustes:
+
+Stroke width: 11 px
+
+Color texto:
+
+RGB: 225, 0, 0
