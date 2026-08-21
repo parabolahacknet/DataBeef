@@ -1,7 +1,6 @@
 ﻿using Menú;
 using System;
 using System.Data.SqlClient;
-
 using System.Windows.Forms;
 
 namespace DataBeef
@@ -76,9 +75,10 @@ namespace DataBeef
             }
         }
 
-        private void InicioSesion_Load(object sender, EventArgs e)
+        private void InicioSesion_Shown(object sender, EventArgs e)
         {
-
+            // Asignar el foco a tableLayoutPanel2 (lo hice para q se muestren los placeholders cuando se abre este form)
+            ActiveControl = tableLayoutPanel2;
         }
     }
 }

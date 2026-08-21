@@ -91,7 +91,6 @@
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
             this.cuiPanel13 = new HartUI.Controls.cuiPanel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.cuiPanel6 = new HartUI.Controls.cuiPanel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -209,6 +208,7 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.cuiLabel21 = new HartUI.Controls.cuiLabel();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.cuiPanel1.SuspendLayout();
             this.cuiPanel3.SuspendLayout();
             this.cuiPanel2.SuspendLayout();
@@ -228,7 +228,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.cuiPanel13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.cuiPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -265,6 +264,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.cuiPanel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
             // cuiTextBox1
@@ -1052,16 +1052,6 @@
             this.cuiPanel13.Rounding = new System.Windows.Forms.Padding(8);
             this.cuiPanel13.Size = new System.Drawing.Size(60, 60);
             this.cuiPanel13.TabIndex = 28;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::DataBeef.Properties.Resources.truck;
-            this.pictureBox8.Location = new System.Drawing.Point(10, 9);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 3;
-            this.pictureBox8.TabStop = false;
             // 
             // label13
             // 
@@ -2529,6 +2519,16 @@
             this.label7.Size = new System.Drawing.Size(1220, 1);
             this.label7.TabIndex = 5;
             // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::DataBeef.Properties.Resources.truck;
+            this.pictureBox8.Location = new System.Drawing.Point(10, 9);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 3;
+            this.pictureBox8.TabStop = false;
+            // 
             // fmTrazabilidad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2564,7 +2564,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.cuiPanel13.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.cuiPanel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -2601,6 +2600,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.cuiPanel12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2681,7 +2681,6 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Label label15;
         private HartUI.Controls.cuiPanel cuiPanel13;
-        private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Label label13;
         private HartUI.Controls.cuiLabel cuiLabel37;
         private HartUI.Controls.cuiPanel cuiPanel20;
@@ -2787,5 +2786,6 @@
         private System.Windows.Forms.PictureBox pictureBox27;
         private HartUI.Controls.cuiLabel cuiLabel100;
         private HartUI.Controls.cuiLabel cuiLabel101;
+        private System.Windows.Forms.PictureBox pictureBox8;
     }
 }
