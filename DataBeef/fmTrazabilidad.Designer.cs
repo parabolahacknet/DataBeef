@@ -53,6 +53,7 @@
             this.cuiLabel2 = new HartUI.Controls.cuiLabel();
             this.cuiLabel1 = new HartUI.Controls.cuiLabel();
             this.cuiPanel2 = new HartUI.Controls.cuiPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cuiPanel4 = new HartUI.Controls.cuiPanel();
             this.cuiLabel37 = new HartUI.Controls.cuiLabel();
             this.cuiPanel20 = new HartUI.Controls.cuiPanel();
@@ -75,18 +76,27 @@
             this.cuiLabel27 = new HartUI.Controls.cuiLabel();
             this.cuiLabel28 = new HartUI.Controls.cuiLabel();
             this.cuiPanel16 = new HartUI.Controls.cuiPanel();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.label18 = new System.Windows.Forms.Label();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.label19 = new System.Windows.Forms.Label();
             this.cuiPanel15 = new HartUI.Controls.cuiPanel();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.label17 = new System.Windows.Forms.Label();
             this.cuiPanel14 = new HartUI.Controls.cuiPanel();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
             this.cuiPanel13 = new HartUI.Controls.cuiPanel();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.cuiPanel6 = new HartUI.Controls.cuiPanel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.cuiLabel19 = new HartUI.Controls.cuiLabel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.cuiLabel25 = new HartUI.Controls.cuiLabel();
             this.cuiPanel5 = new HartUI.Controls.cuiPanel();
             this.cuiLabel22 = new HartUI.Controls.cuiLabel();
@@ -94,19 +104,26 @@
             this.cuiLabel26 = new HartUI.Controls.cuiLabel();
             this.label10 = new System.Windows.Forms.Label();
             this.cuiPanel7 = new HartUI.Controls.cuiPanel();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.cuiLabel100 = new HartUI.Controls.cuiLabel();
             this.cuiLabel101 = new HartUI.Controls.cuiLabel();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.cuiLabel97 = new HartUI.Controls.cuiLabel();
             this.cuiLabel99 = new HartUI.Controls.cuiLabel();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.cuiLabel98 = new HartUI.Controls.cuiLabel();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.cuiLabel96 = new HartUI.Controls.cuiLabel();
             this.cuiLabel53 = new HartUI.Controls.cuiLabel();
             this.cuiLabel52 = new HartUI.Controls.cuiLabel();
             this.cuiPanel10 = new HartUI.Controls.cuiPanel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.cuiLabel18 = new HartUI.Controls.cuiLabel();
             this.cuiPanel9 = new HartUI.Controls.cuiPanel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.cuiLabel17 = new HartUI.Controls.cuiLabel();
             this.cuiPanel8 = new HartUI.Controls.cuiPanel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.cuiLabel16 = new HartUI.Controls.cuiLabel();
             this.cuiLabel15 = new HartUI.Controls.cuiLabel();
             this.label6 = new System.Windows.Forms.Label();
@@ -124,7 +141,9 @@
             this.cuiLabel93 = new HartUI.Controls.cuiLabel();
             this.cuiLabel94 = new HartUI.Controls.cuiLabel();
             this.cuiLabel95 = new HartUI.Controls.cuiLabel();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.cuiPanel29 = new HartUI.Controls.cuiPanel();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.cuiLabel74 = new HartUI.Controls.cuiLabel();
             this.cuiLabel75 = new HartUI.Controls.cuiLabel();
             this.cuiLabel76 = new HartUI.Controls.cuiLabel();
@@ -137,7 +156,9 @@
             this.cuiLabel82 = new HartUI.Controls.cuiLabel();
             this.cuiLabel83 = new HartUI.Controls.cuiLabel();
             this.cuiLabel84 = new HartUI.Controls.cuiLabel();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.cuiPanel27 = new HartUI.Controls.cuiPanel();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.cuiLabel63 = new HartUI.Controls.cuiLabel();
             this.cuiLabel64 = new HartUI.Controls.cuiLabel();
             this.cuiLabel65 = new HartUI.Controls.cuiLabel();
@@ -150,7 +171,9 @@
             this.cuiLabel71 = new HartUI.Controls.cuiLabel();
             this.cuiLabel72 = new HartUI.Controls.cuiLabel();
             this.cuiLabel73 = new HartUI.Controls.cuiLabel();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.cuiPanel25 = new HartUI.Controls.cuiPanel();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.cuiLabel54 = new HartUI.Controls.cuiLabel();
             this.cuiLabel55 = new HartUI.Controls.cuiLabel();
             this.cuiLabel56 = new HartUI.Controls.cuiLabel();
@@ -161,7 +184,9 @@
             this.cuiLabel60 = new HartUI.Controls.cuiLabel();
             this.cuiLabel61 = new HartUI.Controls.cuiLabel();
             this.cuiLabel62 = new HartUI.Controls.cuiLabel();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.cuiPanel23 = new HartUI.Controls.cuiPanel();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.cuiLabel50 = new HartUI.Controls.cuiLabel();
             this.cuiLabel51 = new HartUI.Controls.cuiLabel();
             this.cuiLabel48 = new HartUI.Controls.cuiLabel();
@@ -174,97 +199,72 @@
             this.cuiLabel43 = new HartUI.Controls.cuiLabel();
             this.cuiLabel42 = new HartUI.Controls.cuiLabel();
             this.cuiLabel41 = new HartUI.Controls.cuiLabel();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.cuiButton2 = new HartUI.Controls.cuiButton();
             this.cuiPanel12 = new HartUI.Controls.cuiPanel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.cuiLabel21 = new HartUI.Controls.cuiLabel();
             this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cuiPanel1.SuspendLayout();
             this.cuiPanel3.SuspendLayout();
             this.cuiPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.cuiPanel4.SuspendLayout();
             this.cuiPanel20.SuspendLayout();
             this.cuiPanel19.SuspendLayout();
             this.cuiPanel18.SuspendLayout();
             this.cuiPanel17.SuspendLayout();
             this.cuiPanel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.cuiPanel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.cuiPanel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.cuiPanel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.cuiPanel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.cuiPanel5.SuspendLayout();
             this.cuiPanel7.SuspendLayout();
-            this.cuiPanel10.SuspendLayout();
-            this.cuiPanel9.SuspendLayout();
-            this.cuiPanel8.SuspendLayout();
-            this.cuiPanel11.SuspendLayout();
-            this.cuiPanel28.SuspendLayout();
-            this.cuiPanel29.SuspendLayout();
-            this.cuiPanel26.SuspendLayout();
-            this.cuiPanel27.SuspendLayout();
-            this.cuiPanel24.SuspendLayout();
-            this.cuiPanel25.SuspendLayout();
-            this.cuiPanel22.SuspendLayout();
-            this.cuiPanel23.SuspendLayout();
-            this.cuiPanel21.SuspendLayout();
-            this.cuiPanel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            this.cuiPanel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.cuiPanel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.cuiPanel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.cuiPanel11.SuspendLayout();
+            this.cuiPanel28.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            this.cuiPanel29.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            this.cuiPanel26.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            this.cuiPanel27.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            this.cuiPanel24.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            this.cuiPanel25.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            this.cuiPanel22.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            this.cuiPanel23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            this.cuiPanel21.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            this.cuiPanel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // cuiTextBox1
@@ -598,6 +598,17 @@
             this.cuiPanel2.Size = new System.Drawing.Size(50, 50);
             this.cuiPanel2.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::DataBeef.Properties.Resources.tag;
+            this.pictureBox1.Location = new System.Drawing.Point(10, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // cuiPanel4
             // 
             this.cuiPanel4.Controls.Add(this.cuiLabel37);
@@ -892,6 +903,16 @@
             this.cuiPanel16.Size = new System.Drawing.Size(60, 60);
             this.cuiPanel16.TabIndex = 40;
             // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = global::DataBeef.Properties.Resources.map_pin;
+            this.pictureBox13.Location = new System.Drawing.Point(10, 9);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 3;
+            this.pictureBox13.TabStop = false;
+            // 
             // label18
             // 
             this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
@@ -899,6 +920,17 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(90, 3);
             this.label18.TabIndex = 39;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
+            this.pictureBox14.Location = new System.Drawing.Point(1006, 56);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox14.TabIndex = 38;
+            this.pictureBox14.TabStop = false;
             // 
             // label19
             // 
@@ -921,6 +953,16 @@
             this.cuiPanel15.Size = new System.Drawing.Size(60, 60);
             this.cuiPanel15.TabIndex = 36;
             // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::DataBeef.Properties.Resources.butcher;
+            this.pictureBox11.Location = new System.Drawing.Point(10, 9);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 3;
+            this.pictureBox11.TabStop = false;
+            // 
             // label16
             // 
             this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
@@ -928,6 +970,17 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(90, 3);
             this.label16.TabIndex = 35;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(751, 56);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 34;
+            this.pictureBox12.TabStop = false;
             // 
             // label17
             // 
@@ -950,6 +1003,16 @@
             this.cuiPanel14.Size = new System.Drawing.Size(60, 60);
             this.cuiPanel14.TabIndex = 32;
             // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::DataBeef.Properties.Resources.cow2;
+            this.pictureBox9.Location = new System.Drawing.Point(10, 9);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 3;
+            this.pictureBox9.TabStop = false;
+            // 
             // label14
             // 
             this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
@@ -957,6 +1020,17 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(90, 3);
             this.label14.TabIndex = 31;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(498, 56);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 30;
+            this.pictureBox10.TabStop = false;
             // 
             // label15
             // 
@@ -979,6 +1053,16 @@
             this.cuiPanel13.Size = new System.Drawing.Size(60, 60);
             this.cuiPanel13.TabIndex = 28;
             // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::DataBeef.Properties.Resources.truck;
+            this.pictureBox8.Location = new System.Drawing.Point(10, 9);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 3;
+            this.pictureBox8.TabStop = false;
+            // 
             // label13
             // 
             this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(167)))), ((int)(((byte)(69)))));
@@ -1000,6 +1084,16 @@
             this.cuiPanel6.Size = new System.Drawing.Size(60, 60);
             this.cuiPanel6.TabIndex = 1;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::DataBeef.Properties.Resources.beef;
+            this.pictureBox2.Location = new System.Drawing.Point(10, 9);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(40, 40);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
             // cuiLabel19
             // 
             this.cuiLabel19.BackColor = System.Drawing.Color.White;
@@ -1010,6 +1104,17 @@
             this.cuiLabel19.Size = new System.Drawing.Size(81, 23);
             this.cuiLabel19.TabIndex = 26;
             this.cuiLabel19.Text = "cuiLabel19";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Image = global::DataBeef.Properties.Resources.check_circle_fill;
+            this.pictureBox6.Location = new System.Drawing.Point(245, 56);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 25;
+            this.pictureBox6.TabStop = false;
             // 
             // cuiLabel25
             // 
@@ -1106,6 +1211,17 @@
             this.cuiPanel7.Size = new System.Drawing.Size(239, 580);
             this.cuiPanel7.TabIndex = 5;
             // 
+            // pictureBox27
+            // 
+            this.pictureBox27.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox27.Image = global::DataBeef.Properties.Resources.comprador;
+            this.pictureBox27.Location = new System.Drawing.Point(50, 252);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox27.TabIndex = 67;
+            this.pictureBox27.TabStop = false;
+            // 
             // cuiLabel100
             // 
             this.cuiLabel100.BackColor = System.Drawing.Color.White;
@@ -1129,6 +1245,17 @@
             this.cuiLabel101.Size = new System.Drawing.Size(115, 23);
             this.cuiLabel101.TabIndex = 65;
             this.cuiLabel101.Text = "cuiLabel101";
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox26.Image = global::DataBeef.Properties.Resources.fecha;
+            this.pictureBox26.Location = new System.Drawing.Point(50, 187);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox26.TabIndex = 64;
+            this.pictureBox26.TabStop = false;
             // 
             // cuiLabel97
             // 
@@ -1154,6 +1281,17 @@
             this.cuiLabel99.TabIndex = 62;
             this.cuiLabel99.Text = "cuiLabel99";
             // 
+            // pictureBox25
+            // 
+            this.pictureBox25.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox25.Image = global::DataBeef.Properties.Resources.fecha;
+            this.pictureBox25.Location = new System.Drawing.Point(50, 124);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox25.TabIndex = 61;
+            this.pictureBox25.TabStop = false;
+            // 
             // cuiLabel98
             // 
             this.cuiLabel98.BackColor = System.Drawing.Color.White;
@@ -1165,6 +1303,17 @@
             this.cuiLabel98.Size = new System.Drawing.Size(128, 23);
             this.cuiLabel98.TabIndex = 60;
             this.cuiLabel98.Text = "cuiLabel98";
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
+            this.pictureBox24.Location = new System.Drawing.Point(50, 62);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox24.TabIndex = 59;
+            this.pictureBox24.TabStop = false;
             // 
             // cuiLabel96
             // 
@@ -1216,6 +1365,16 @@
             this.cuiPanel10.Size = new System.Drawing.Size(180, 41);
             this.cuiPanel10.TabIndex = 26;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(138, 10);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 24;
+            this.pictureBox5.TabStop = false;
+            // 
             // cuiLabel18
             // 
             this.cuiLabel18.BackColor = System.Drawing.Color.White;
@@ -1241,6 +1400,16 @@
             this.cuiPanel9.Size = new System.Drawing.Size(180, 41);
             this.cuiPanel9.TabIndex = 25;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(138, 10);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 24;
+            this.pictureBox4.TabStop = false;
+            // 
             // cuiLabel17
             // 
             this.cuiLabel17.BackColor = System.Drawing.Color.White;
@@ -1265,6 +1434,16 @@
             this.cuiPanel8.Rounding = new System.Windows.Forms.Padding(8);
             this.cuiPanel8.Size = new System.Drawing.Size(180, 41);
             this.cuiPanel8.TabIndex = 6;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(138, 10);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 24;
+            this.pictureBox3.TabStop = false;
             // 
             // cuiLabel16
             // 
@@ -1534,6 +1713,17 @@
             this.cuiLabel95.TabIndex = 94;
             this.cuiLabel95.Text = "cuiLabel95";
             // 
+            // pictureBox22
+            // 
+            this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox22.Image = global::DataBeef.Properties.Resources.five_circle;
+            this.pictureBox22.Location = new System.Drawing.Point(92, 306);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(29, 29);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox22.TabIndex = 93;
+            this.pictureBox22.TabStop = false;
+            // 
             // cuiPanel29
             // 
             this.cuiPanel29.BackColor = System.Drawing.Color.Transparent;
@@ -1546,6 +1736,16 @@
             this.cuiPanel29.Rounding = new System.Windows.Forms.Padding(8);
             this.cuiPanel29.Size = new System.Drawing.Size(40, 40);
             this.cuiPanel29.TabIndex = 92;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Image = global::DataBeef.Properties.Resources.map_pin;
+            this.pictureBox23.Location = new System.Drawing.Point(6, 5);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(29, 29);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox23.TabIndex = 3;
+            this.pictureBox23.TabStop = false;
             // 
             // cuiLabel74
             // 
@@ -1692,6 +1892,17 @@
             this.cuiLabel84.TabIndex = 81;
             this.cuiLabel84.Text = "cuiLabel84";
             // 
+            // pictureBox20
+            // 
+            this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox20.Image = global::DataBeef.Properties.Resources.four_circle;
+            this.pictureBox20.Location = new System.Drawing.Point(92, 246);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(29, 29);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox20.TabIndex = 80;
+            this.pictureBox20.TabStop = false;
+            // 
             // cuiPanel27
             // 
             this.cuiPanel27.BackColor = System.Drawing.Color.Transparent;
@@ -1704,6 +1915,16 @@
             this.cuiPanel27.Rounding = new System.Windows.Forms.Padding(8);
             this.cuiPanel27.Size = new System.Drawing.Size(40, 40);
             this.cuiPanel27.TabIndex = 79;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = global::DataBeef.Properties.Resources.butcher;
+            this.pictureBox21.Location = new System.Drawing.Point(6, 5);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(29, 29);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox21.TabIndex = 3;
+            this.pictureBox21.TabStop = false;
             // 
             // cuiLabel63
             // 
@@ -1850,6 +2071,17 @@
             this.cuiLabel73.TabIndex = 68;
             this.cuiLabel73.Text = "cuiLabel73";
             // 
+            // pictureBox18
+            // 
+            this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox18.Image = global::DataBeef.Properties.Resources.three_circle;
+            this.pictureBox18.Location = new System.Drawing.Point(92, 190);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(29, 29);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox18.TabIndex = 67;
+            this.pictureBox18.TabStop = false;
+            // 
             // cuiPanel25
             // 
             this.cuiPanel25.BackColor = System.Drawing.Color.Transparent;
@@ -1862,6 +2094,16 @@
             this.cuiPanel25.Rounding = new System.Windows.Forms.Padding(8);
             this.cuiPanel25.Size = new System.Drawing.Size(40, 40);
             this.cuiPanel25.TabIndex = 66;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Image = global::DataBeef.Properties.Resources.cow2;
+            this.pictureBox19.Location = new System.Drawing.Point(6, 5);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(29, 29);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox19.TabIndex = 3;
+            this.pictureBox19.TabStop = false;
             // 
             // cuiLabel54
             // 
@@ -1984,6 +2226,17 @@
             this.cuiLabel62.TabIndex = 55;
             this.cuiLabel62.Text = "cuiLabel62";
             // 
+            // pictureBox16
+            // 
+            this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox16.Image = global::DataBeef.Properties.Resources.two_circle;
+            this.pictureBox16.Location = new System.Drawing.Point(92, 134);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(29, 29);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox16.TabIndex = 54;
+            this.pictureBox16.TabStop = false;
+            // 
             // cuiPanel23
             // 
             this.cuiPanel23.BackColor = System.Drawing.Color.Transparent;
@@ -1996,6 +2249,16 @@
             this.cuiPanel23.Rounding = new System.Windows.Forms.Padding(8);
             this.cuiPanel23.Size = new System.Drawing.Size(40, 40);
             this.cuiPanel23.TabIndex = 53;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Image = global::DataBeef.Properties.Resources.truck;
+            this.pictureBox17.Location = new System.Drawing.Point(6, 5);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(29, 29);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox17.TabIndex = 3;
+            this.pictureBox17.TabStop = false;
             // 
             // cuiLabel50
             // 
@@ -2142,6 +2405,17 @@
             this.cuiLabel41.TabIndex = 34;
             this.cuiLabel41.Text = "cuiLabel41";
             // 
+            // pictureBox15
+            // 
+            this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox15.Image = global::DataBeef.Properties.Resources.one_circle;
+            this.pictureBox15.Location = new System.Drawing.Point(92, 68);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(29, 29);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox15.TabIndex = 33;
+            this.pictureBox15.TabStop = false;
+            // 
             // label12
             // 
             this.label12.BackColor = System.Drawing.SystemColors.Control;
@@ -2226,6 +2500,16 @@
             this.cuiPanel12.Size = new System.Drawing.Size(40, 40);
             this.cuiPanel12.TabIndex = 23;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::DataBeef.Properties.Resources.beef;
+            this.pictureBox7.Location = new System.Drawing.Point(6, 5);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(29, 29);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 3;
+            this.pictureBox7.TabStop = false;
+            // 
             // cuiLabel21
             // 
             this.cuiLabel21.BackColor = System.Drawing.Color.White;
@@ -2245,290 +2529,6 @@
             this.label7.Size = new System.Drawing.Size(1220, 1);
             this.label7.TabIndex = 5;
             // 
-            // pictureBox22
-            // 
-            this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox22.Image = global::DataBeef.Properties.Resources.five_circle;
-            this.pictureBox22.Location = new System.Drawing.Point(92, 306);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(29, 29);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox22.TabIndex = 93;
-            this.pictureBox22.TabStop = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Image = global::DataBeef.Properties.Resources.map_pin;
-            this.pictureBox23.Location = new System.Drawing.Point(6, 5);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(29, 29);
-            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox23.TabIndex = 3;
-            this.pictureBox23.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox20.Image = global::DataBeef.Properties.Resources.four_circle;
-            this.pictureBox20.Location = new System.Drawing.Point(92, 246);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(29, 29);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 80;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Image = global::DataBeef.Properties.Resources.butcher;
-            this.pictureBox21.Location = new System.Drawing.Point(6, 5);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(29, 29);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox21.TabIndex = 3;
-            this.pictureBox21.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox18.Image = global::DataBeef.Properties.Resources.three_circle;
-            this.pictureBox18.Location = new System.Drawing.Point(92, 190);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(29, 29);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox18.TabIndex = 67;
-            this.pictureBox18.TabStop = false;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Image = global::DataBeef.Properties.Resources.cow2;
-            this.pictureBox19.Location = new System.Drawing.Point(6, 5);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(29, 29);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox19.TabIndex = 3;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox16.Image = global::DataBeef.Properties.Resources.two_circle;
-            this.pictureBox16.Location = new System.Drawing.Point(92, 134);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(29, 29);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 54;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Image = global::DataBeef.Properties.Resources.truck;
-            this.pictureBox17.Location = new System.Drawing.Point(6, 5);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(29, 29);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox17.TabIndex = 3;
-            this.pictureBox17.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox15.Image = global::DataBeef.Properties.Resources.one_circle;
-            this.pictureBox15.Location = new System.Drawing.Point(92, 68);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(29, 29);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 33;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::DataBeef.Properties.Resources.beef;
-            this.pictureBox7.Location = new System.Drawing.Point(6, 5);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(29, 29);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 3;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox27
-            // 
-            this.pictureBox27.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox27.Image = global::DataBeef.Properties.Resources.comprador;
-            this.pictureBox27.Location = new System.Drawing.Point(50, 252);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox27.TabIndex = 67;
-            this.pictureBox27.TabStop = false;
-            // 
-            // pictureBox26
-            // 
-            this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox26.Image = global::DataBeef.Properties.Resources.fecha;
-            this.pictureBox26.Location = new System.Drawing.Point(50, 187);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox26.TabIndex = 64;
-            this.pictureBox26.TabStop = false;
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox25.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox25.Image = global::DataBeef.Properties.Resources.fecha;
-            this.pictureBox25.Location = new System.Drawing.Point(50, 124);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox25.TabIndex = 61;
-            this.pictureBox25.TabStop = false;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(50, 62);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox24.TabIndex = 59;
-            this.pictureBox24.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(138, 10);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 24;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(138, 10);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 24;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(138, 10);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 24;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = global::DataBeef.Properties.Resources.map_pin;
-            this.pictureBox13.Location = new System.Drawing.Point(10, 9);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 3;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(1006, 56);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 38;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = global::DataBeef.Properties.Resources.butcher;
-            this.pictureBox11.Location = new System.Drawing.Point(10, 9);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 3;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(751, 56);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 34;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::DataBeef.Properties.Resources.cow2;
-            this.pictureBox9.Location = new System.Drawing.Point(10, 9);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 3;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(498, 56);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 30;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::DataBeef.Properties.Resources.truck;
-            this.pictureBox8.Location = new System.Drawing.Point(10, 9);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 3;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::DataBeef.Properties.Resources.beef;
-            this.pictureBox2.Location = new System.Drawing.Point(10, 9);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.Image = global::DataBeef.Properties.Resources.check_circle_fill;
-            this.pictureBox6.Location = new System.Drawing.Point(245, 56);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 25;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::DataBeef.Properties.Resources.tag;
-            this.pictureBox1.Location = new System.Drawing.Point(10, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // fmTrazabilidad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2541,65 +2541,66 @@
             this.Controls.Add(this.cuiButton1);
             this.Controls.Add(this.cuiTextBox1);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fmTrazabilidad";
-            this.Text = "Trazabilidad";
+            this.Text = "DataBeef";
             this.Shown += new System.EventHandler(this.fmTrazabilidad_Shown);
             this.cuiPanel1.ResumeLayout(false);
             this.cuiPanel3.ResumeLayout(false);
             this.cuiPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.cuiPanel4.ResumeLayout(false);
             this.cuiPanel20.ResumeLayout(false);
             this.cuiPanel19.ResumeLayout(false);
             this.cuiPanel18.ResumeLayout(false);
             this.cuiPanel17.ResumeLayout(false);
             this.cuiPanel16.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.cuiPanel15.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.cuiPanel14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.cuiPanel13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.cuiPanel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.cuiPanel5.ResumeLayout(false);
             this.cuiPanel7.ResumeLayout(false);
-            this.cuiPanel10.ResumeLayout(false);
-            this.cuiPanel9.ResumeLayout(false);
-            this.cuiPanel8.ResumeLayout(false);
-            this.cuiPanel11.ResumeLayout(false);
-            this.cuiPanel28.ResumeLayout(false);
-            this.cuiPanel29.ResumeLayout(false);
-            this.cuiPanel26.ResumeLayout(false);
-            this.cuiPanel27.ResumeLayout(false);
-            this.cuiPanel24.ResumeLayout(false);
-            this.cuiPanel25.ResumeLayout(false);
-            this.cuiPanel22.ResumeLayout(false);
-            this.cuiPanel23.ResumeLayout(false);
-            this.cuiPanel21.ResumeLayout(false);
-            this.cuiPanel12.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            this.cuiPanel10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.cuiPanel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.cuiPanel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.cuiPanel11.ResumeLayout(false);
+            this.cuiPanel28.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            this.cuiPanel29.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            this.cuiPanel26.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            this.cuiPanel27.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            this.cuiPanel24.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            this.cuiPanel25.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            this.cuiPanel22.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            this.cuiPanel23.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            this.cuiPanel21.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            this.cuiPanel12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
 
         }

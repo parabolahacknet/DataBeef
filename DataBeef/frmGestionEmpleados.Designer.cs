@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGestionEmpleados));
             this.pnlStock = new System.Windows.Forms.Panel();
             this.pnlFiltros = new System.Windows.Forms.Panel();
             this.lblLimpiar = new System.Windows.Forms.Label();
@@ -65,10 +66,10 @@
             this.object_9667b431_8723_43cf_8b29_44c91b539cff = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.lblAbajo = new System.Windows.Forms.Label();
-            this.pnlEmpleados = new System.Windows.Forms.Panel();
-            this.dgvEmpleados = new System.Windows.Forms.DataGridView();
             this.pnlEditarEmpleados = new System.Windows.Forms.Panel();
             this.pnlRegistroEmpleados = new System.Windows.Forms.Panel();
+            this.pnlEmpleados = new System.Windows.Forms.Panel();
+            this.dgvEmpleados = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -529,6 +530,20 @@
             this.lblAbajo.Text = "v";
             this.lblAbajo.Click += new System.EventHandler(this.lblAbajo_Click);
             // 
+            // pnlEditarEmpleados
+            // 
+            this.pnlEditarEmpleados.Location = new System.Drawing.Point(35, 17);
+            this.pnlEditarEmpleados.Name = "pnlEditarEmpleados";
+            this.pnlEditarEmpleados.Size = new System.Drawing.Size(1531, 602);
+            this.pnlEditarEmpleados.TabIndex = 61;
+            // 
+            // pnlRegistroEmpleados
+            // 
+            this.pnlRegistroEmpleados.Location = new System.Drawing.Point(28, 38);
+            this.pnlRegistroEmpleados.Name = "pnlRegistroEmpleados";
+            this.pnlRegistroEmpleados.Size = new System.Drawing.Size(1531, 602);
+            this.pnlRegistroEmpleados.TabIndex = 60;
+            // 
             // pnlEmpleados
             // 
             this.pnlEmpleados.BackColor = System.Drawing.SystemColors.Control;
@@ -546,24 +561,24 @@
             this.dgvEmpleados.AllowUserToResizeRows = false;
             this.dgvEmpleados.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvEmpleados.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(248)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEmpleados.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(248)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEmpleados.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvEmpleados.ColumnHeadersHeight = 32;
             this.dgvEmpleados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvEmpleados.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(234)))), ((int)(((byte)(234)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvEmpleados.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvEmpleados.EnableHeadersVisualStyles = false;
             this.dgvEmpleados.Location = new System.Drawing.Point(19, 19);
             this.dgvEmpleados.MultiSelect = false;
@@ -573,20 +588,6 @@
             this.dgvEmpleados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvEmpleados.Size = new System.Drawing.Size(1499, 571);
             this.dgvEmpleados.TabIndex = 58;
-            // 
-            // pnlEditarEmpleados
-            // 
-            this.pnlEditarEmpleados.Location = new System.Drawing.Point(35, 17);
-            this.pnlEditarEmpleados.Name = "pnlEditarEmpleados";
-            this.pnlEditarEmpleados.Size = new System.Drawing.Size(1531, 602);
-            this.pnlEditarEmpleados.TabIndex = 61;
-            // 
-            // pnlRegistroEmpleados
-            // 
-            this.pnlRegistroEmpleados.Location = new System.Drawing.Point(28, 38);
-            this.pnlRegistroEmpleados.Name = "pnlRegistroEmpleados";
-            this.pnlRegistroEmpleados.Size = new System.Drawing.Size(1531, 602);
-            this.pnlRegistroEmpleados.TabIndex = 60;
             // 
             // Column1
             // 
@@ -638,8 +639,9 @@
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.pnlStock);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmGestionEmpleados";
-            this.Text = "frmGestionEmpleados";
+            this.Text = "DataBeef";
             this.Load += new System.EventHandler(this.frmGestionEmpleados_Load);
             this.pnlStock.ResumeLayout(false);
             this.pnlStock.PerformLayout();

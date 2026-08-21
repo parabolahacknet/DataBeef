@@ -227,7 +227,7 @@
             this.MinimizeBox = false;
             this.Name = "frmInspeccionSanitaria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Inspeccíon Sanitaria";
+            this.Text = "DataBeef";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
